@@ -4,453 +4,35 @@
 		<meta http-equiv="content-type" content="text/html; charset=windows-1252"/>
 		<title></title>
 		<style type="text/css">
-    body { font-size: 12pt }
-    h1 {font-size: 32pt; margin-bottom: 0px; font-style: normal;}
-    h2 {font-size: 14pt; margin-bottom: 0px; font-style: normal;}
+		body {font-size: 12pt; max-width: 650px; min-width: 350px; margin-left: auto;	margin-right: auto;}
+    h1 {font-size: 23pt; margin-bottom: 0px; margin-top: 0px; font-style: normal;}
+    h2 {font-size: 12pt; margin-bottom: 0px; margin-top: 0px; font-style: normal;}
     h5 {font-size: 14pt; margin-bottom: 0px; font-style: normal;}
     li, u, p {font-size: 12pt; font-style: normal;}
     q {font-style: italic;}
 		button {width: 100%;}
-		.kategori {background-color: chocolate; border-radius: 5px;}
-		.recipe {background-color: bisque; border-radius: 5px;}
+		.unfold {background-color: rgb(195, 235, 244); border-radius: 5px; padding: 7px; width: auto; position: absolute; right: 0px;}
+		.kategori {background-color: rgb(126, 230, 255); border-radius: 5px; padding: 7px;}
+		.recipe {background-color: rgb(205, 248, 255); border-radius: 5px; padding: 7px;}
+		.ingredienser {background-color: rgb(223, 244, 244); border-radius: 5px; padding: 7px;}
+		.howto {background-color: rgb(237, 255, 255); border-radius: 5px; padding: 7px;}
+		.antal {text-align: center; margin-top: 2px;}
+		/* .kategori {background-color: bisque; border-radius: 5px;}
+		.recipe {background-color: rgb(220, 150, 100); border-radius: 5px;}
 		.ingredienser {background-color: antiquewhite; border-radius: 5px;}
-		.howto {background-color: peachpuff; border-radius: 5px;}
+		.howto {background-color: peachpuff; border-radius: 5px;} */
 		</style>
 		<script type="text/javascript" src="jquery-3.5.1.js"></script>
 		<script type="text/javascript" src="main.js"></script>
 	</head>
 	<body lang="da-DK">
+		<button class="unfold">Fold alt ud (for at kunne s&oslash;ge)</button>
+		<br>
 		<p align="center" style="font-size: 40pt">Kogebog</p>
 
-<div class="oversigt">
+		<div class="oversigt">
 
-		<button class="kategori">
-			<h1>Fisk</h1>
-		</button>
-
-			<div class="opskrifter">
-
-				<button class="recipe">
-		     <h2>Kuller p&aring; dj&aelig;vlemaner (med salat)</h2>
-		    </button>
-
-		  	<div class="ingredienser">
-					<p>(4 personer) (Start 1,5 timer f&oslash;r)</p>
-		  		<u>Ingredienser:</u>
-
-		  		<p><input type="checkbox"> &nbsp; 500-750 g kuller filet</p>
-		  		<p><input type="checkbox"> &nbsp; 2-3 chilier (gerne flere farver)</p>
-		  		<p><input type="checkbox"> &nbsp; 1-2 l&oslash;g</p>
-		  		<p><input type="checkbox"> &nbsp; 1 d&aring;se fl&aring;ede tomater
-		  		(400 g)</p>
-		  		<p><input type="checkbox"> &nbsp; 1 citron</p>
-		  		<p><input type="checkbox"> &nbsp; (2 spsk persille)</p>
-		  		<p><input type="checkbox"> &nbsp; (2 spsk basilikum)</p>
-		  	</div>
-
-				<div class="howto"><u>Fremgangsm&aring;de:</u>
-
-			    <p><input type="checkbox"> &nbsp;Sm&oslash;r et ildfast fad (ca. 20 x 25 cm)</p>
-			    <p><input type="checkbox"> &nbsp;Pres citronen
-			    og kom saften i en Margrethe-sk&aring;l</p>
-			    <p><input type="checkbox"> &nbsp;Kom kullerfileterne i Margrethe-sk&aring;len og vend dem rundt til de er
-			    d&aelig;kket af citronsaft</p>
-			    <p><input type="checkbox"> &nbsp;Hak 1-2 l&oslash;g
-			    	</p>
-			    <p><input type="checkbox"> &nbsp;Rens og hak
-			    chilierne</p>
-			    <p><input type="checkbox"> &nbsp;(Hak persille
-			    og basilikum)</p>
-			    <p><input type="checkbox"> &nbsp;&Aring;ben
-			    d&aring;sen med fl&aring;ede tomater</p>
-			    <p><input type="checkbox"> &nbsp;Find 1 spsk
-			    paprika frem</p>
-			    <p><input type="checkbox"> &nbsp;Varm en gryde
-			    og find en tr&aelig;spatel til at r&oslash;re med</p>
-			    <p><input type="checkbox"> &nbsp;Kom 2 spsk olie
-			    i og svits
-			    </p>
-			    <ul>
-			    	<ul>
-			    		<p><input type="checkbox"> &nbsp;l&oslash;g og</p>
-			    		<p><input type="checkbox"> &nbsp;chilier</p>
-			    	</ul>
-			    </ul>
-			    <p><input type="checkbox"> &nbsp;Kom 1 spsk
-			    paprika i og r&oslash;r rundt</p>
-			    <p><input type="checkbox"> &nbsp;Kom de fl&aring;ede
-			    tomater i og r&oslash;r godt rundt</p>
-			    <p><input type="checkbox"> &nbsp;(Kom persille
-			    og basilikum i)</p>
-			    <p><input type="checkbox"> &nbsp;Kom &frac34;
-			    tsk salt og
-			    et par st&aelig;nk tabasco i</p>
-			    <p><input type="checkbox"> &nbsp;Bring tomaterne i kog, skru ned og r&oslash;r rundt</p>
-			    <p><input type="checkbox"> &nbsp;L&aelig;g l&aring;g
-			    p&aring; og kog ved svag varme i 15 minutter:</p>
-			    <ul>
-			    		<p><input type="checkbox"> &nbsp;S&aelig;t en
-			    		timer p&aring; 15 minutter og
-			    		</p>
-			    		<p><input type="checkbox"> &nbsp;T&aelig;nd
-			    		for ovnen p&aring; 200<i>&ordm;<i>
-			    		 </p>
-			    </ul>
-			    <ul>
-			    		<p><input type="checkbox"> &nbsp;S&aelig;t
-			    		ris over (Kog 3 &frac34;
-			    		dL vand. Kom 2 &frac12; dL ris og 1 tsk salt i. R&oslash;r rundt
-			    		og skru ned til 1. S&aelig;t en timer til 12 minutter. Sluk for
-			    		risen n&aring;r timeren bipper og lad risene tr&aelig;kke 12
-			    		minutter)</p>
-			    </ul>
-			    <p><input type="checkbox"> &nbsp;N&aring;r
-			    timeren bipper h&aelig;ldes lidt af tomatsovsen i bunden af det
-			    smurte, ildfaste fad</p>
-			    <p><input type="checkbox"> &nbsp;Dryp
-			    kullerfileterne lidt af og l&aelig;g dem oven i tomatsovsen i det
-			    ildfaste fad</p>
-			    <p><input type="checkbox"> &nbsp;H&aelig;ld
-			    resten af tomatsovsen over, s&aring; fisken er helt d&aelig;kket</p>
-			    <p><input type="checkbox"> &nbsp;S&aelig;t fadet
-			    i den varme ovn og s&aelig;t en timer p&aring; 15 minutter</p>
-			    <p><input type="checkbox"> &nbsp;Server med ris
-			    og evt. en salat</p>
-
-					<p align="right">(Slut)</p>
-
-				</div>
-
-	    <button class="recipe">
-	     <h2>Hornfisk med krydderurter</h2>
-	    </button>
-
-	  	<div class="ingredienser">
-				<p>(4 personer) (Start 1 time f&oslash;r)</p>
-	  		<u>Ingredienser:</u>
-
-	  		<p><input type="checkbox"> &nbsp; 2-3 rensede hornfisk (juni-august)</p>
-	  		<p><input type="checkbox"> &nbsp; 1 l&oslash;g</p>
-	  		<p><input type="checkbox"> &nbsp; 1 porre</p>
-	  		<p><input type="checkbox"> &nbsp; 1-3 fed hvidl&oslash;g</p>
-	  		<p><input type="checkbox"> &nbsp; 1 d&aring;se fl&aring;ede tomater</p>
-	  		<p><input type="checkbox"> &nbsp; 2 dL hvidvin (eller 1:3
-	  		&aelig;blecidereddike og vand)</p>
-	  		<p><input type="checkbox"> &nbsp; 1 bundt persille (og gerne salvie,
-	  		basilikum, ...)</p>
-	  		<p><input type="checkbox"> &nbsp; (Salat)</p>
-	  	</div>
-
-			<div class="howto"><u>Fremgangsm&aring;de:</u>
-
-				<p><input type="checkbox"> &nbsp;Rens
-		    porren og sk&aelig;r den i skiver (0,5 cm tykke)</p>
-		    <p><input type="checkbox"> &nbsp;Hak
-		    l&oslash;g og hvidl&oslash;g</p>
-		    <p><input type="checkbox"> &nbsp;Hak
-		    persille (og andre krydderurter). Gerne en god h&aring;ndfuld</p>
-		    <p><input type="checkbox"> &nbsp;&Aring;ben
-		    d&aring;sen/katonnen med fl&aring;ede tomater</p>
-		    <p><input type="checkbox"> &nbsp;H&aelig;ld
-		    2 dL hvidvin op (eller lave en blanding af 0,5 dL &aelig;blecidereddike
-		    og 1,5 dL vand)</p>
-		    <p><input type="checkbox"> &nbsp;Varm
-		    en gryde og kom 1-2 spsk olie i</p>
-		    <p><input type="checkbox"> &nbsp;Kom
-		    straks l&oslash;g og porre i gryden og sauter til stykkerne er let
-		    gennemsigtige</p>
-		    <p><input type="checkbox"> &nbsp;Kom
-		    hvidl&oslash;g ved og r&oslash;r kort rundt</p>
-		    <p><input type="checkbox"> &nbsp;Tils&aelig;t
-		    hvidvin og fl&aring;ede tomater</p>
-		    <p><input type="checkbox"> &nbsp;R&oslash;r
-		    1 tsk t&oslash;rret timian (eller en kvist frisk timian), 1
-		    laurb&aelig;rblad</p>
-		    <p><input type="checkbox"> &nbsp;Koges
-		    ved svag varme mens der laves ris og steges fisk</p>
-		    <p><input type="checkbox"> &nbsp; S&aelig;t
-		    ris over (3&frac12; dL vand, 2&frac12; dL ris, 1 tsk salt. Koges p&aring;
-		    1 i 12 min. Sluk. Tr&aelig;kke i 12 min)</p>
-		    <p><input type="checkbox"> &nbsp;Spred
-		    rugmel ud p&aring; en stor tallerken og bland 1 tsk salt og
-		    nykv&aelig;rnet peber i melet</p>
-		    <p><input type="checkbox"> &nbsp;Vend
-		    hornfiskestykkerne i melet til de er d&aelig;kket af mel</p>
-		    <p><input type="checkbox"> &nbsp;Varm
-		    en stegepande og kom &frac12; dL olie og 20 gram sm&oslash;r p&aring;
-		    panden</p>
-		    <p><input type="checkbox"> &nbsp;N&aring;r
-		    det er smeltet skrues ned til halvt blus og hornfiskestykkerne
-		    brunes let p&aring; alle sider</p>
-		    <p><input type="checkbox"> &nbsp;Kom
-		    de stegte fiskestykker ned i tomatsovsen og lad dem koge med</p>
-		    <p><input type="checkbox"> &nbsp;S&aelig;t
-		    en timer p&aring; 5 minutter</p>
-		    <p><input type="checkbox"> &nbsp;Kom
-		    hakkede krydderurter i og kog 5 minutter mere. Husk timer.</p>
-		    <p><input type="checkbox"> &nbsp;Serveres
-		    med ris (og eventuelt en salat)</p>
-
-				<p align="right">(Slut)</p>
-
-			</div>		<!-- class recipe -->
-
-		<!-- </div>		<!-- class opskrifter -->
-
-
-    <button class="recipe">
-     <h2>Maskintorsk</h2>
-    </button>
-
-  	<div class="ingredienser">
-			<p>(4 personer) (Start 1 time f&oslash;r)</p>
-  		<u>Ingredienser:</u>
-
-  		<p><input type="checkbox"> &nbsp; 500-750 g kuller filet (Se tip	nederst)</p>
-  		<p><input type="checkbox"> &nbsp; 1 kg kartofler</p>
-  	</div>
-
-		<div class="howto"><u>Fremgangsm&aring;de:</u>
-
-	    <p><input type="checkbox"> &nbsp;Skr&aelig;l
-	    kartoflerne og s&oslash;rg for at de er sk&aring;ret i nogenlunde
-	    lige store stykker.</p>
-	    <p><input type="checkbox"> &nbsp;S&aelig;t dem
-	    p&aring; kogepladen og skru helt op. Tjek at de netop er d&aelig;kket
-	    med vand og l&aelig;g l&aring;g p&aring;.</p>
-	    <p><input type="checkbox"> &nbsp;N&aring;r
-	    gryden koger skrues ned p&aring; 2 (ud af 9) og der s&aelig;ttes en
-	    timer p&aring; 15 minutter.</p>
-	    <p><input type="checkbox"> &nbsp;L&aelig;g
-	    sm&oslash;rklatter i bunden af en gryde, sk&aelig;r fileterne i
-	    passende stykker og l&aelig;g dem i gryden</p>
-	    <p><input type="checkbox"> &nbsp;Drys med salt,
-	    peber og karry og l&aelig;g flere sm&oslash;rklatter ovenp&aring;.</p>
-	    <p><input type="checkbox"> &nbsp;L&aelig;g l&aring;g
-	    p&aring; og s&aelig;t fisken p&aring; en kogeplade og skru op p&aring;
-	    5 (ud af 9). Skru ned hvis det koger</p>
-	    <p><input type="checkbox"> &nbsp;N&aring;r
-	    timeren bipper stikkes i kartoflerne. De er f&aelig;rdige n&aring;r
-	    de ikke er h&aring;rde i midten. M&aring;ske skal de have 2-5
-	    minutter mere.</p>
-	    <p><input type="checkbox"> &nbsp;H&aelig;ld
-	    vandet fra kartoflerne.</p>
-	    <p><input type="checkbox"> &nbsp;S&aelig;t
-	    gryden p&aring; blusset igen, og damp kartoflerne t&oslash;rre. L&aelig;g
-	    l&aring;g p&aring; igen og tag gryden af blusset.</p>
-	    <p><input type="checkbox"> &nbsp;Tjek om fisken
-	    er hvid og flaget. Hvis den ikke falder fra hinanden og er blank i
-	    midten skal den have lidt l&aelig;ngere. Pas p&aring; ikke at give
-	    den alt for meget, da den s&aring; kan blive t&oslash;r og kedelig.</p>
-	    <p><input type="checkbox"> &nbsp;Server fisken
-	    med kartoflerne. H&aelig;ld sm&oslash;rsovsen i bunden af gryden
-	    over kartoflerne.</p>
-	    <p><input type="checkbox"> &nbsp;(Der kan
-	    serveres samme salat som til <i>Kuller p&aring; Dj&aelig;vlemaner</i>)</p>
-
-			<p>Tip: Der kan bruges
-			alle slags torskefisk som m&oslash;rksej, lyssej, lange, kuller,
-			kulmule, &hellip;</p>
-
-			<p align="right">(Slut)</p>
-
-		</div>
-
-    <button class="recipe">
-     <h2>Thai curry med fisk og ananas</h2>
-    </button>
-
-  	<div class="ingredienser">
-			<p>(4 personer) (Start 45 minutter f&oslash;r)</p>
-  		<u>Ingredienser:</u>
-
-  		<p><input type="checkbox"> &nbsp; 500 g fisk</p>
-  		<p><input type="checkbox"> &nbsp; 1 stor d&aring;se ananas</p>
-  		<p><input type="checkbox"> &nbsp; 7 cm galangal</p>
-  		<p><input type="checkbox"> &nbsp; 2 stilke citrongr&aelig;s</p>
-  		<p><input type="checkbox"> &nbsp; frisk basilikum</p>
-  		<p><input type="checkbox"> &nbsp; 125 g rejer</p>
-  		<p><input type="checkbox"> &nbsp; 2 spsk r&oslash;d karrypasta</p>
-  		<p><input type="checkbox"> &nbsp; 1 d&aring;se kokosm&aelig;lk</p>
-  		<p><input type="checkbox"> &nbsp; 2 spsk fiskesovs</p>
-  		<p><input type="checkbox"> &nbsp; 2 tsk brun sukker</p>
-  		<p><input type="checkbox"> &nbsp; 2-3 chilier</p>
-  		<p><input type="checkbox"> &nbsp; 6 kaffir limes leaves</p>
-  	</div>
-
-		<div class="howto"><u>Fremgangsm&aring;de:</u>
-
-    <p><input type="checkbox"> &nbsp;S&aelig;t
-    ris over (Kog 3 &frac34;
-    dL vand. Kom 2 &frac12; dL ris og 1 tsk salt i. R&oslash;r rundt og
-    skru ned til 1. S&aelig;t en timer til 12 minutter. Sluk for risen
-    n&aring;r timeren bipper og lad risene tr&aelig;kke 12 minutter)</p>
-    <p></p>
-    <p><input type="checkbox"> &nbsp;Rens og sk&aelig;r
-    2-3 chilier i lange tynde strimler</p>
-    <p><input type="checkbox"> &nbsp;M&aring;l 1-2
-    spsk karrypasta, 2 tsk brun sukker og 2 spsk fiskesovs op og &aring;ben
-    d&aring;sen med kokosm&aelig;lk</p>
-    <p><input type="checkbox"> &nbsp;Varm en gryde
-    og kom 2 spsk olie i (hvis olien ryger n&aring;r den kommer i var
-    gryden for varm og skal g&oslash;res ren f&oslash;r man pr&oslash;ver
-    igen)</p>
-    <p><input type="checkbox"> &nbsp;Svits 1-2 spsk
-    r&oslash;d karrypasta i olien nogle sekunder</p>
-    <p><input type="checkbox"> &nbsp;Kom
-    chilistrimlerne i og r&oslash;r rundt</p>
-    <p><input type="checkbox"> &nbsp;Kom 2 tsk brun
-    sukker i og r&oslash;r rundt</p>
-    <p><input type="checkbox"> &nbsp;H&aelig;ld 2
-    spsk fiskesovs i og r&oslash;r kort rundt</p>
-    <p><input type="checkbox"> &nbsp;H&aelig;ld
-    kokosm&aelig;lken i gryden og r&oslash;r rundt. Lad blandingen simre
-    under l&aring;g mens resten laves.</p>
-    <p></p>
-    <p><input type="checkbox"> &nbsp;Sk&aelig;r
-    fisken i store tern og kom fiskestykkerne i en gryde</p>
-    <p><input type="checkbox"> &nbsp;D&aelig;k
-    fisken med vand s&aring; det netop d&aelig;kker</p>
-    <p><input type="checkbox"> &nbsp;Skr&aelig;l 5-7
-    cm galangalrod og sk&aelig;r den i skiver tykke skiver</p>
-    <p><input type="checkbox"> &nbsp;Sk&aelig;r
-    rodenden af 2 stilke citrongr&aelig;s og fjern misfarvede blade.
-    Knus den tykke del let (brug enden af kniven eller en
-    kagerulle)</p>
-    <p><input type="checkbox"> &nbsp;Skyl 4-5 kviste
-    basilikum</p>
-    <p><input type="checkbox"> &nbsp;Kom galangal,
-    basilikum og citrongr&aelig;s ned til fisken og r&oslash;r rundt til
-    alt netop er under vand</p>
-    <p><input type="checkbox"> &nbsp;Bring langsomt
-    gryden i kog (t&aelig;nd p&aring; 7 ud af 9) og lad fisken simre 2
-    minutter</p>
-    <p><input type="checkbox"> &nbsp;Kom rejerne i
-    og bring vandet i kog igen</p>
-    <p><input type="checkbox"> &nbsp;N&aring;r fisk
-    og rejer har simret 1 minut slukkes for blusset og fisken kommes
-    over til kokos og ananas blandingen</p>
-    <p><input type="checkbox"> &nbsp;Skyl og knus
-    5-6 limes leaves let i h&aring;nden og kom dem p&aring; toppen af
-    curryen</p>
-    <p><input type="checkbox"> &nbsp;Skyl nogle
-    basilikumblade og kom dem p&aring; toppen af curryen</p>
-    <p><input type="checkbox"> &nbsp;Server med ris</p>
-
-		<p align="right">(Slut)</p>
-
-		</div>
-
-    <button class="recipe">
-     <h2>Sur-s&oslash;d fisk</h2>
-    </button>
-
-  	<div class="ingredienser">
-			<p>(4 personer) (Start 1 time f&oslash;r)</p>
-  		<u>Ingredienser:</u>
-
-  		<p><input type="checkbox"> &nbsp; 4 fj&aelig;sing eller knurhaner
-  		(Eller 2 makrel)</p>
-  		<p><input type="checkbox"> &nbsp; &frac12;-1 dL majsmel</p>
-  		<p><input type="checkbox"> &nbsp; 1 dL olie</p>
-  		<p><input type="checkbox"> &nbsp; 1-2 fed hvidl&oslash;g</p>
-  		<p><input type="checkbox"> &nbsp; 3-5 cm ingef&aelig;rrod</p>
-  		<p><input type="checkbox"> &nbsp; 1 l&oslash;g</p>
-  		<p><input type="checkbox"> &nbsp; 250 g cherrytomater</p>
-  		<p><input type="checkbox"> &nbsp; 2 spsk r&oslash;dvinseddike/balsamico</p>
-  		<p><input type="checkbox"> &nbsp; 2 spsk brun sukker</p>
-  		<p><input type="checkbox"> &nbsp; 2 spsk tomatkoncentrat</p>
-  		<p><input type="checkbox"> &nbsp; 1 spsk fiskesovs</p>
-  		<p><input type="checkbox"> &nbsp; 2 tsk majsstivelse (<q>Maizena</q>)</p>
-  		<p><input type="checkbox"> &nbsp; 3 spsk vand</p>
-  		<p><input type="checkbox"> &nbsp; (1 bundt koriander)</p>
-  		<p><input type="checkbox"> &nbsp; (1 r&oslash;dl&oslash;g)</p>
-  	</div>
-
-		<div class="howto"><u>Fremgangsm&aring;de:</u>
-
-	    <p><input type="checkbox"> &nbsp;S&aelig;t ris over (Kog 3 &frac34;
-	    dL vand. Kom 2 &frac12; dL ris og 1 tsk salt i. R&oslash;r rundt og
-	    skru ned til 1. S&aelig;t en timer til 12 minutter. Sluk for risen
-	    n&aring;r timeren bipper og lad risene tr&aelig;kke 12 minutter)</p>
-	    <p><input type="checkbox"> &nbsp;Skyl
-	    fisken og t&oslash;r den i k&oslash;kkenrulle</p>
-	    <p><input type="checkbox"> &nbsp;Sk&aelig;r
-	    hoved, hale og finner af hver fisk</p>
-	    <p><input type="checkbox"> &nbsp;Snit
-	    tre skr&aring; snit i skindet p&aring; hver side af hver fisk (Ned
-	    til rygraden)</p>
-	    <p><input type="checkbox"> &nbsp;Pil
-	    et l&oslash;g og 1-2 fed hvidl&oslash;g og skr&aelig;l 3-5 cm
-	    ingef&aelig;rrod</p>
-	    <p><input type="checkbox"> &nbsp;Hak
-	    l&oslash;g og hvidl&oslash;g og riv ingef&aelig;ren p&aring; et fint
-	    rivejern.</p>
-	    <p><input type="checkbox"> &nbsp;Skyl
-	    cherrytomaterne</p>
-	    <p><input type="checkbox"> &nbsp;I
-	    en kop kommes</p>
-	    <ul>
-	    	<ul>
-	    		<p><input type="checkbox"> &nbsp;2 spsk
-	    		r&oslash;dvinseddike/balsamico</p>
-	    		<p><input type="checkbox"> &nbsp;2 spsk brun
-	    		sukker</p>
-	    		<p><input type="checkbox"> &nbsp;2 spsk
-	    		tomatkoncentrat</p>
-	    		<p><input type="checkbox"> &nbsp;1
-	    		spsk fiskesovs</p>
-	    	</ul>
-	    </ul>
-	    <p><input type="checkbox"> &nbsp;I
-	    en kop r&oslash;res 2 tsk majsstivelse ud i 3 spsk vand</p>
-	    <p><input type="checkbox"> &nbsp;Hvis
-	    man har lyst til at pynte med koriander og r&oslash;dl&oslash;gsstrimler
-	    skylles 3-8 korianderkviste og r&oslash;dl&oslash;get g&oslash;res i
-	    stand som et almindeligt l&oslash;g og sk&aelig;res i tynde skiver</p>
-	    <p><input type="checkbox"> &nbsp;Drys
-	    fiskene med majsmel og ryst overskydende mel af</p>
-	    <p><input type="checkbox"> &nbsp;Varm
-	    en pande op og kom 1 dL olie i</p>
-	    <p><input type="checkbox"> &nbsp;N&aring;r
-	    olien er varm skrues ned til 6 ud af 9</p>
-	    <p><input type="checkbox"> &nbsp;L&aelig;g
-	    forsigtigt fiskene i og steg dem 5-7 minutter p&aring; hver side</p>
-	    <p><input type="checkbox"> &nbsp;Mens
-	    de steger l&aelig;gges 3 lag k&oslash;kkenrulle p&aring; en
-	    tallerken</p>
-	    <p><input type="checkbox"> &nbsp;Tag
-	    fiskene af panden og l&aelig;g dem p&aring; k&oslash;kkenrullen p&aring;
-	    tallerkenen for at dryppe af</p>
-	    <p><input type="checkbox"> &nbsp;En
-	    sauterpande varmes op og der kommes 1 spsk olie i</p>
-	    <p><input type="checkbox"> &nbsp;Det
-	    hakkede l&oslash;g og hvidl&oslash;g svitses let. Det m&aring; ikke
-	    blive brunt</p>
-	    <p><input type="checkbox"> &nbsp;Kom
-	    den revne ingef&aelig;r i og r&oslash;r rundt</p>
-	    <p><input type="checkbox"> &nbsp;Kom
-	    cherrytomaterne i og svits dem til skindet spr&aelig;kker</p>
-	    <p><input type="checkbox"> &nbsp;H&aelig;ld
-	    blandingen af sukker, eddike, tomatpure og fiskesovs i</p>
-	    <p><input type="checkbox"> &nbsp;Skru
-	    ned og lad det simre et par minutter</p>
-	    <p><input type="checkbox"> &nbsp;Smag
-	    eventuelt til med sukker eller eddike</p>
-	    <p><input type="checkbox"> &nbsp;R&oslash;r
-	    vand-majsstivelsesblandingen i og kog til sovsen tykner lidt</p>
-	    <p><input type="checkbox"> &nbsp;Kom
-	    fiskene i sovsen og vend dem rundt</p>
-	    <p><input type="checkbox"> &nbsp;Pynt
-	    eventuelt med koriander kviste og skiver af r&oslash;dl&oslash;g
-	    </p>
-	    <p><input type="checkbox"> &nbsp;Server med ris og eventuelt en salat</p>
-
-			<p align="right">(Slut)</p>
-		</div>
-	</div>   <!-- <div class="opskrifter"> -->
-
-	<button class="kategori">
+<button class="kategori">
 		<h1>Vegetarisk</h1>
 	</button>
 	<div class="opskrifter">
@@ -460,7 +42,7 @@
     </button>
 
   	<div class="ingredienser">
-			<p>(3 personer) (Start 30 minutter f&oslash;r)</p>
+			<p class="antal">(3 personer) (Start 30 minutter f&oslash;r)</p>
   		<u>Ingredienser:</u>
 
   		<p><input type="checkbox"> &nbsp; 250 g minutnudler</p>
@@ -525,7 +107,7 @@
     </button>
 
   	<div class="ingredienser">
-			<p>(4 personer) (Start 1,5 timer f&oslash;r)</p>
+			<p class="antal">(4 personer) (Start 1,5 timer f&oslash;r)</p>
   		<u>Ingredienser:</u>
 
   		<p><input type="checkbox"> &nbsp; 2 dl vand</p>
@@ -647,7 +229,7 @@
     </button>
 
   	<div class="ingredienser">
-			<p>(4 personer) (Start 30 minutter(/24 timer f&oslash;r))</p>
+			<p class="antal">(4 personer) (Start 30 minutter(/24 timer f&oslash;r))</p>
   		<u>Ingredienser:</u>
 
   		<p><input type="checkbox"> &nbsp; 500 gkik&aelig;rter (evt 1 d&aring;se)</p>
@@ -722,7 +304,7 @@
     </button>
 
 		<div class="ingredienser">
-			<p>(4 personer)    (Start 2 timer f&oslash;r)</p>
+			<p class="antal">(4 personer)    (Start 2 timer f&oslash;r)</p>
 			<u>Ingredienser:</u>
 		 <p><input type="checkbox"> &nbsp; 250 g mel</p>
 		 <p><input type="checkbox"> &nbsp; &frac12; tsk salt</p>
@@ -828,7 +410,7 @@
     </button>
 
   	<div class="ingredienser">
-			<p>(4 personer) (Start 2 timer f&oslash;r)</p>
+			<p class="antal">(4 personer) (Start 2 timer f&oslash;r)</p>
   		<u>Ingredienser:</u>
 
   		<p><input type="checkbox"> &nbsp; 3 spsk olie</p>
@@ -912,11 +494,7 @@
     af ovnen og t&aelig;nd den p&aring; 180&deg;C.
     Kom bagepapir p&aring; en bageplade</p>
     <p><input type="checkbox"> &nbsp;Hvis
-    der serveres ris til er det nu der skal koges 3,75 dL vand og m&aring;les
-    2,5 dL ris af. Husk 1 tsk salt n&aring;r risen kommes i det kogende
-    vand og kog p&aring; 1 ud af 9 i 12 minutter. Sluk blusset og lad
-    risen st&aring; og tr&aelig;kke mindst 12 minutter. S&aelig;t evt.
-    tallerkenerne p&aring; l&aring;get s&aring; de kan blive varme</p>
+    der serveres ris til er det nu de skal s&aelig;ttes over.</p>
     <p><input type="checkbox"> &nbsp;S&aelig;t
     farsen i valn&oslash;ddestore kugler p&aring; en bageplade, dryp med
     olie og drys eventuelt med garam masala</p>
@@ -926,7 +504,7 @@
     er i ovnen r&oslash;res 2,5 dL yoghurt med resten af den hakkede
     koriander og 1-2 spsk mangochutney</p>
     <p><input type="checkbox"> &nbsp;Serveres med
-    dressingen og ris. M&aring;ske agurkestave og tomater i terninger.</p>
+    dressingen og ris. <br> M&aring;ske agurkestave og tomater i terninger.</p>
 
 		<p align="right">(Slut)</p>
 
@@ -937,7 +515,7 @@
     </button>
 
   	<div class="ingredienser">
-			<p>(4 personer) (Start 1 time f&oslash;r)</p>
+			<p class="antal">(4 personer) (Start 1 time f&oslash;r)</p>
   		<u>Ingredienser:</u>
 
   		<p><input type="checkbox"> &nbsp; 1 blomk&aring;l</p>
@@ -983,7 +561,7 @@
     </button>
 
   	<div class="ingredienser">
-			<p>(4 personer) (Start 1 time f&oslash;r)</p>
+			<p class="antal">(4 personer) (Start 1 time f&oslash;r)</p>
   		<u>Ingredienser:</u>
 
   		<p><input type="checkbox"> &nbsp; &frac34;-1 kg (kogte) kartofler</p>
@@ -1074,7 +652,433 @@
 		</div>
 	</div>   <!-- <div class="opskrifter"> -->
 
-	<button class="kategori">
+<button class="kategori">
+					<h1>Fisk</h1>
+				</button>
+
+					<div class="opskrifter">
+
+						<button class="recipe">
+				     <h2>Kuller p&aring; dj&aelig;vlemaner</h2>
+				    </button>
+
+				  	<div class="ingredienser">
+							<p class="antal">(4 personer) (Start 1,5 timer f&oslash;r)</p>
+				  		<u>Ingredienser:</u>
+
+				  		<p><input type="checkbox"> &nbsp; 500-750 g kuller filet</p>
+				  		<p><input type="checkbox"> &nbsp; 2-3 chilier (gerne flere farver)</p>
+				  		<p><input type="checkbox"> &nbsp; 1-2 l&oslash;g</p>
+				  		<p><input type="checkbox"> &nbsp; 1 d&aring;se fl&aring;ede tomater
+				  		(400 g)</p>
+				  		<p><input type="checkbox"> &nbsp; 1 citron</p>
+				  		<p><input type="checkbox"> &nbsp; (2 spsk persille)</p>
+				  		<p><input type="checkbox"> &nbsp; (2 spsk basilikum)</p>
+				  	</div>
+
+						<div class="howto"><u>Fremgangsm&aring;de:</u>
+
+					    <p><input type="checkbox"> &nbsp;Sm&oslash;r et ildfast fad (ca. 20 x 25 cm)</p>
+					    <p><input type="checkbox"> &nbsp;Pres citronen
+					    og kom saften i en Margrethe-sk&aring;l</p>
+					    <p><input type="checkbox"> &nbsp;Kom kullerfileterne i Margrethe-sk&aring;len og vend dem rundt til de er
+					    d&aelig;kket af citronsaft</p>
+					    <p><input type="checkbox"> &nbsp;Hak 1-2 l&oslash;g
+					    	</p>
+					    <p><input type="checkbox"> &nbsp;Rens og hak
+					    chilierne</p>
+					    <p><input type="checkbox"> &nbsp;(Hak persille
+					    og basilikum)</p>
+					    <p><input type="checkbox"> &nbsp;&Aring;ben
+					    d&aring;sen med fl&aring;ede tomater</p>
+					    <p><input type="checkbox"> &nbsp;Find 1 spsk
+					    paprika frem</p>
+					    <p><input type="checkbox"> &nbsp;Varm en gryde
+					    og find en tr&aelig;spatel til at r&oslash;re med</p>
+					    <p><input type="checkbox"> &nbsp;Kom 2 spsk olie
+					    i og svits
+					    </p>
+					    <ul>
+					    	<ul>
+					    		<p><input type="checkbox"> &nbsp;l&oslash;g og</p>
+					    		<p><input type="checkbox"> &nbsp;chilier</p>
+					    	</ul>
+					    </ul>
+					    <p><input type="checkbox"> &nbsp;Kom 1 spsk
+					    paprika i og r&oslash;r rundt</p>
+					    <p><input type="checkbox"> &nbsp;Kom de fl&aring;ede
+					    tomater i og r&oslash;r godt rundt</p>
+					    <p><input type="checkbox"> &nbsp;(Kom persille
+					    og basilikum i)</p>
+					    <p><input type="checkbox"> &nbsp;Kom &frac34;
+					    tsk salt og
+					    et par st&aelig;nk tabasco i</p>
+					    <p><input type="checkbox"> &nbsp;Bring tomaterne i kog, skru ned og r&oslash;r rundt</p>
+					    <p><input type="checkbox"> &nbsp;L&aelig;g l&aring;g
+					    p&aring; og kog ved svag varme i 15 minutter:</p>
+					    <ul>
+					    		<p><input type="checkbox"> &nbsp;S&aelig;t en
+					    		timer p&aring; 15 minutter og
+					    		</p>
+					    		<p><input type="checkbox"> &nbsp;T&aelig;nd
+					    		for ovnen p&aring; 200<i>&ordm;<i>
+					    		 </p>
+					    </ul>
+					    <ul>
+					    		<p><input type="checkbox"> &nbsp;S&aelig;t
+					    		ris over (Kog 3 &frac34;
+					    		dL vand. Kom 2 &frac12; dL ris og 1 tsk salt i. R&oslash;r rundt
+					    		og skru ned til 1. S&aelig;t en timer til 12 minutter. Sluk for
+					    		risen n&aring;r timeren bipper og lad risene tr&aelig;kke 12
+					    		minutter)</p>
+					    </ul>
+					    <p><input type="checkbox"> &nbsp;N&aring;r
+					    timeren bipper h&aelig;ldes lidt af tomatsovsen i bunden af det
+					    smurte, ildfaste fad</p>
+					    <p><input type="checkbox"> &nbsp;Dryp
+					    kullerfileterne lidt af og l&aelig;g dem oven i tomatsovsen i det
+					    ildfaste fad</p>
+					    <p><input type="checkbox"> &nbsp;H&aelig;ld
+					    resten af tomatsovsen over, s&aring; fisken er helt d&aelig;kket</p>
+					    <p><input type="checkbox"> &nbsp;S&aelig;t fadet
+					    i den varme ovn og s&aelig;t en timer p&aring; 15 minutter</p>
+					    <p><input type="checkbox"> &nbsp;Server med ris
+					    og evt. en salat</p>
+
+							<p align="right">(Slut)</p>
+
+						</div>
+
+			    <button class="recipe">
+			     <h2>Hornfisk med krydderurter</h2>
+			    </button>
+
+			  	<div class="ingredienser">
+						<p class="antal">(4 personer) (Start 1 time f&oslash;r)</p>
+			  		<u>Ingredienser:</u>
+
+			  		<p><input type="checkbox"> &nbsp; 2-3 rensede hornfisk (juni-august)</p>
+			  		<p><input type="checkbox"> &nbsp; 1 l&oslash;g</p>
+			  		<p><input type="checkbox"> &nbsp; 1 porre</p>
+			  		<p><input type="checkbox"> &nbsp; 1-3 fed hvidl&oslash;g</p>
+			  		<p><input type="checkbox"> &nbsp; 1 d&aring;se fl&aring;ede tomater</p>
+			  		<p><input type="checkbox"> &nbsp; 2 dL hvidvin (eller 1:3
+			  		&aelig;blecidereddike og vand)</p>
+			  		<p><input type="checkbox"> &nbsp; 1 bundt persille (og gerne salvie,
+			  		basilikum, ...)</p>
+			  		<p><input type="checkbox"> &nbsp; (Salat)</p>
+			  	</div>
+
+					<div class="howto"><u>Fremgangsm&aring;de:</u>
+
+						<p><input type="checkbox"> &nbsp;Rens
+				    porren og sk&aelig;r den i skiver (0,5 cm tykke)</p>
+				    <p><input type="checkbox"> &nbsp;Hak
+				    l&oslash;g og hvidl&oslash;g</p>
+				    <p><input type="checkbox"> &nbsp;Hak
+				    persille (og andre krydderurter). Gerne en god h&aring;ndfuld</p>
+				    <p><input type="checkbox"> &nbsp;&Aring;ben
+				    d&aring;sen/katonnen med fl&aring;ede tomater</p>
+				    <p><input type="checkbox"> &nbsp;H&aelig;ld
+				    2 dL hvidvin op (eller lave en blanding af 0,5 dL &aelig;blecidereddike
+				    og 1,5 dL vand)</p>
+				    <p><input type="checkbox"> &nbsp;Varm
+				    en gryde og kom 1-2 spsk olie i</p>
+				    <p><input type="checkbox"> &nbsp;Kom
+				    straks l&oslash;g og porre i gryden og sauter til stykkerne er let
+				    gennemsigtige</p>
+				    <p><input type="checkbox"> &nbsp;Kom
+				    hvidl&oslash;g ved og r&oslash;r kort rundt</p>
+				    <p><input type="checkbox"> &nbsp;Tils&aelig;t
+				    hvidvin og fl&aring;ede tomater</p>
+				    <p><input type="checkbox"> &nbsp;R&oslash;r
+				    1 tsk t&oslash;rret timian (eller en kvist frisk timian), 1
+				    laurb&aelig;rblad</p>
+				    <p><input type="checkbox"> &nbsp;Koges
+				    ved svag varme mens der laves ris og steges fisk</p>
+				    <p><input type="checkbox"> &nbsp; S&aelig;t
+				    ris over (3&frac12; dL vand, 2&frac12; dL ris, 1 tsk salt. Koges p&aring;
+				    1 i 12 min. Sluk. Tr&aelig;kke i 12 min)</p>
+				    <p><input type="checkbox"> &nbsp;Spred
+				    rugmel ud p&aring; en stor tallerken og bland 1 tsk salt og
+				    nykv&aelig;rnet peber i melet</p>
+				    <p><input type="checkbox"> &nbsp;Vend
+				    hornfiskestykkerne i melet til de er d&aelig;kket af mel</p>
+				    <p><input type="checkbox"> &nbsp;Varm
+				    en stegepande og kom &frac12; dL olie og 20 gram sm&oslash;r p&aring;
+				    panden</p>
+				    <p><input type="checkbox"> &nbsp;N&aring;r
+				    det er smeltet skrues ned til halvt blus og hornfiskestykkerne
+				    brunes let p&aring; alle sider</p>
+				    <p><input type="checkbox"> &nbsp;Kom
+				    de stegte fiskestykker ned i tomatsovsen og lad dem koge med</p>
+				    <p><input type="checkbox"> &nbsp;S&aelig;t
+				    en timer p&aring; 5 minutter</p>
+				    <p><input type="checkbox"> &nbsp;Kom
+				    hakkede krydderurter i og kog 5 minutter mere. Husk timer.</p>
+				    <p><input type="checkbox"> &nbsp;Serveres
+				    med ris (og eventuelt en salat)</p>
+
+						<p align="right">(Slut)</p>
+
+					</div>		<!-- class recipe -->
+
+				<!-- </div>		<!-- class opskrifter -->
+
+
+		    <button class="recipe">
+		     <h2>Maskintorsk</h2>
+		    </button>
+
+		  	<div class="ingredienser">
+					<p class="antal">(4 personer) (Start 1 time f&oslash;r)</p>
+		  		<u>Ingredienser:</u>
+
+		  		<p><input type="checkbox"> &nbsp; 500-750 g kuller filet (Se tip	nederst)</p>
+		  		<p><input type="checkbox"> &nbsp; 1 kg kartofler</p>
+		  	</div>
+
+				<div class="howto"><u>Fremgangsm&aring;de:</u>
+
+			    <p><input type="checkbox"> &nbsp;Skr&aelig;l
+			    kartoflerne og s&oslash;rg for at de er sk&aring;ret i nogenlunde
+			    lige store stykker.</p>
+			    <p><input type="checkbox"> &nbsp;S&aelig;t dem
+			    p&aring; kogepladen og skru helt op. Tjek at de netop er d&aelig;kket
+			    med vand og l&aelig;g l&aring;g p&aring;.</p>
+			    <p><input type="checkbox"> &nbsp;N&aring;r
+			    gryden koger skrues ned p&aring; 2 (ud af 9) og der s&aelig;ttes en
+			    timer p&aring; 15 minutter.</p>
+			    <p><input type="checkbox"> &nbsp;L&aelig;g
+			    sm&oslash;rklatter i bunden af en gryde, sk&aelig;r fileterne i
+			    passende stykker og l&aelig;g dem i gryden</p>
+			    <p><input type="checkbox"> &nbsp;Drys med salt,
+			    peber og karry og l&aelig;g flere sm&oslash;rklatter ovenp&aring;.</p>
+			    <p><input type="checkbox"> &nbsp;L&aelig;g l&aring;g
+			    p&aring; og s&aelig;t fisken p&aring; en kogeplade og skru op p&aring;
+			    5 (ud af 9). Skru ned hvis det koger</p>
+			    <p><input type="checkbox"> &nbsp;N&aring;r
+			    timeren bipper stikkes i kartoflerne. De er f&aelig;rdige n&aring;r
+			    de ikke er h&aring;rde i midten. M&aring;ske skal de have 2-5
+			    minutter mere.</p>
+			    <p><input type="checkbox"> &nbsp;H&aelig;ld
+			    vandet fra kartoflerne.</p>
+			    <p><input type="checkbox"> &nbsp;S&aelig;t
+			    gryden p&aring; blusset igen, og damp kartoflerne t&oslash;rre. L&aelig;g
+			    l&aring;g p&aring; igen og tag gryden af blusset.</p>
+			    <p><input type="checkbox"> &nbsp;Tjek om fisken
+			    er hvid og flaget. Hvis den ikke falder fra hinanden og er blank i
+			    midten skal den have lidt l&aelig;ngere. Pas p&aring; ikke at give
+			    den alt for meget, da den s&aring; kan blive t&oslash;r og kedelig.</p>
+			    <p><input type="checkbox"> &nbsp;Server fisken
+			    med kartoflerne. H&aelig;ld sm&oslash;rsovsen i bunden af gryden
+			    over kartoflerne.</p>
+			    <p><input type="checkbox"> &nbsp;(Der kan
+			    serveres samme salat som til <i>Kuller p&aring; Dj&aelig;vlemaner</i>)</p>
+
+					<p>Tip: Der kan bruges
+					alle slags torskefisk som m&oslash;rksej, lyssej, lange, kuller,
+					kulmule, &hellip;</p>
+
+					<p align="right">(Slut)</p>
+
+				</div>
+
+		    <button class="recipe">
+		     <h2>Thai curry med fisk og ananas</h2>
+		    </button>
+
+		  	<div class="ingredienser">
+					<p class="antal">(4 personer) (Start 45 minutter f&oslash;r)</p>
+		  		<u>Ingredienser:</u>
+
+		  		<p><input type="checkbox"> &nbsp; 500 g fisk</p>
+		  		<p><input type="checkbox"> &nbsp; 1 stor d&aring;se ananas</p>
+		  		<p><input type="checkbox"> &nbsp; 7 cm galangal</p>
+		  		<p><input type="checkbox"> &nbsp; 2 stilke citrongr&aelig;s</p>
+		  		<p><input type="checkbox"> &nbsp; frisk basilikum</p>
+		  		<p><input type="checkbox"> &nbsp; 125 g rejer</p>
+		  		<p><input type="checkbox"> &nbsp; 2 spsk r&oslash;d karrypasta</p>
+		  		<p><input type="checkbox"> &nbsp; 1 d&aring;se kokosm&aelig;lk</p>
+		  		<p><input type="checkbox"> &nbsp; 2 spsk fiskesovs</p>
+		  		<p><input type="checkbox"> &nbsp; 2 tsk brun sukker</p>
+		  		<p><input type="checkbox"> &nbsp; 2-3 chilier</p>
+		  		<p><input type="checkbox"> &nbsp; 6 kaffir limes leaves</p>
+		  	</div>
+
+				<div class="howto"><u>Fremgangsm&aring;de:</u>
+
+		    <p><input type="checkbox"> &nbsp;S&aelig;t
+		    ris over (Kog 3 &frac34;
+		    dL vand. Kom 2 &frac12; dL ris og 1 tsk salt i. R&oslash;r rundt og
+		    skru ned til 1. S&aelig;t en timer til 12 minutter. Sluk for risen
+		    n&aring;r timeren bipper og lad risene tr&aelig;kke 12 minutter)</p>
+		    <p></p>
+		    <p><input type="checkbox"> &nbsp;Rens og sk&aelig;r
+		    2-3 chilier i lange tynde strimler</p>
+		    <p><input type="checkbox"> &nbsp;M&aring;l 1-2
+		    spsk karrypasta, 2 tsk brun sukker og 2 spsk fiskesovs op og &aring;ben
+		    d&aring;sen med kokosm&aelig;lk</p>
+		    <p><input type="checkbox"> &nbsp;Varm en gryde
+		    og kom 2 spsk olie i (hvis olien ryger n&aring;r den kommer i var
+		    gryden for varm og skal g&oslash;res ren f&oslash;r man pr&oslash;ver
+		    igen)</p>
+		    <p><input type="checkbox"> &nbsp;Svits 1-2 spsk
+		    r&oslash;d karrypasta i olien nogle sekunder</p>
+		    <p><input type="checkbox"> &nbsp;Kom
+		    chilistrimlerne i og r&oslash;r rundt</p>
+		    <p><input type="checkbox"> &nbsp;Kom 2 tsk brun
+		    sukker i og r&oslash;r rundt</p>
+		    <p><input type="checkbox"> &nbsp;H&aelig;ld 2
+		    spsk fiskesovs i og r&oslash;r kort rundt</p>
+		    <p><input type="checkbox"> &nbsp;H&aelig;ld
+		    kokosm&aelig;lken i gryden og r&oslash;r rundt. Lad blandingen simre
+		    under l&aring;g mens resten laves.</p>
+		    <p></p>
+		    <p><input type="checkbox"> &nbsp;Sk&aelig;r
+		    fisken i store tern og kom fiskestykkerne i en gryde</p>
+		    <p><input type="checkbox"> &nbsp;D&aelig;k
+		    fisken med vand s&aring; det netop d&aelig;kker</p>
+		    <p><input type="checkbox"> &nbsp;Skr&aelig;l 5-7
+		    cm galangalrod og sk&aelig;r den i skiver tykke skiver</p>
+		    <p><input type="checkbox"> &nbsp;Sk&aelig;r
+		    rodenden af 2 stilke citrongr&aelig;s og fjern misfarvede blade.
+		    Knus den tykke del let (brug enden af kniven eller en
+		    kagerulle)</p>
+		    <p><input type="checkbox"> &nbsp;Skyl 4-5 kviste
+		    basilikum</p>
+		    <p><input type="checkbox"> &nbsp;Kom galangal,
+		    basilikum og citrongr&aelig;s ned til fisken og r&oslash;r rundt til
+		    alt netop er under vand</p>
+		    <p><input type="checkbox"> &nbsp;Bring langsomt
+		    gryden i kog (t&aelig;nd p&aring; 7 ud af 9) og lad fisken simre 2
+		    minutter</p>
+		    <p><input type="checkbox"> &nbsp;Kom rejerne i
+		    og bring vandet i kog igen</p>
+		    <p><input type="checkbox"> &nbsp;N&aring;r fisk
+		    og rejer har simret 1 minut slukkes for blusset og fisken kommes
+		    over til kokos og ananas blandingen</p>
+		    <p><input type="checkbox"> &nbsp;Skyl og knus
+		    5-6 limes leaves let i h&aring;nden og kom dem p&aring; toppen af
+		    curryen</p>
+		    <p><input type="checkbox"> &nbsp;Skyl nogle
+		    basilikumblade og kom dem p&aring; toppen af curryen</p>
+		    <p><input type="checkbox"> &nbsp;Server med ris</p>
+
+				<p align="right">(Slut)</p>
+
+				</div>
+
+		    <button class="recipe">
+		     <h2>Sur-s&oslash;d fisk</h2>
+		    </button>
+
+		  	<div class="ingredienser">
+					<p class="antal">(4 personer) (Start 1 time f&oslash;r)</p>
+		  		<u>Ingredienser:</u>
+
+		  		<p><input type="checkbox"> &nbsp; 4 fj&aelig;sing eller knurhaner
+		  		(Eller 2 makrel)</p>
+		  		<p><input type="checkbox"> &nbsp; &frac12;-1 dL majsmel</p>
+		  		<p><input type="checkbox"> &nbsp; 1 dL olie</p>
+		  		<p><input type="checkbox"> &nbsp; 1-2 fed hvidl&oslash;g</p>
+		  		<p><input type="checkbox"> &nbsp; 3-5 cm ingef&aelig;rrod</p>
+		  		<p><input type="checkbox"> &nbsp; 1 l&oslash;g</p>
+		  		<p><input type="checkbox"> &nbsp; 250 g cherrytomater</p>
+		  		<p><input type="checkbox"> &nbsp; 2 spsk r&oslash;dvinseddike/balsamico</p>
+		  		<p><input type="checkbox"> &nbsp; 2 spsk brun sukker</p>
+		  		<p><input type="checkbox"> &nbsp; 2 spsk tomatkoncentrat</p>
+		  		<p><input type="checkbox"> &nbsp; 1 spsk fiskesovs</p>
+		  		<p><input type="checkbox"> &nbsp; 2 tsk majsstivelse (<q>Maizena</q>)</p>
+		  		<p><input type="checkbox"> &nbsp; 3 spsk vand</p>
+		  		<p><input type="checkbox"> &nbsp; (1 bundt koriander)</p>
+		  		<p><input type="checkbox"> &nbsp; (1 r&oslash;dl&oslash;g)</p>
+		  	</div>
+
+				<div class="howto"><u>Fremgangsm&aring;de:</u>
+
+			    <p><input type="checkbox"> &nbsp;S&aelig;t ris over (Kog 3 &frac34;
+			    dL vand. Kom 2 &frac12; dL ris og 1 tsk salt i. R&oslash;r rundt og
+			    skru ned til 1. S&aelig;t en timer til 12 minutter. Sluk for risen
+			    n&aring;r timeren bipper og lad risene tr&aelig;kke 12 minutter)</p>
+			    <p><input type="checkbox"> &nbsp;Skyl
+			    fisken og t&oslash;r den i k&oslash;kkenrulle</p>
+			    <p><input type="checkbox"> &nbsp;Sk&aelig;r
+			    hoved, hale og finner af hver fisk</p>
+			    <p><input type="checkbox"> &nbsp;Snit
+			    tre skr&aring; snit i skindet p&aring; hver side af hver fisk (Ned
+			    til rygraden)</p>
+			    <p><input type="checkbox"> &nbsp;Pil
+			    et l&oslash;g og 1-2 fed hvidl&oslash;g og skr&aelig;l 3-5 cm
+			    ingef&aelig;rrod</p>
+			    <p><input type="checkbox"> &nbsp;Hak
+			    l&oslash;g og hvidl&oslash;g og riv ingef&aelig;ren p&aring; et fint
+			    rivejern.</p>
+			    <p><input type="checkbox"> &nbsp;Skyl
+			    cherrytomaterne</p>
+			    <p><input type="checkbox"> &nbsp;I
+			    en kop kommes</p>
+			    <ul>
+			    	<ul>
+			    		<p><input type="checkbox"> &nbsp;2 spsk
+			    		r&oslash;dvinseddike/balsamico</p>
+			    		<p><input type="checkbox"> &nbsp;2 spsk brun
+			    		sukker</p>
+			    		<p><input type="checkbox"> &nbsp;2 spsk
+			    		tomatkoncentrat</p>
+			    		<p><input type="checkbox"> &nbsp;1
+			    		spsk fiskesovs</p>
+			    	</ul>
+			    </ul>
+			    <p><input type="checkbox"> &nbsp;I
+			    en kop r&oslash;res 2 tsk majsstivelse ud i 3 spsk vand</p>
+			    <p><input type="checkbox"> &nbsp;Hvis
+			    man har lyst til at pynte med koriander og r&oslash;dl&oslash;gsstrimler
+			    skylles 3-8 korianderkviste og r&oslash;dl&oslash;get g&oslash;res i
+			    stand som et almindeligt l&oslash;g og sk&aelig;res i tynde skiver</p>
+			    <p><input type="checkbox"> &nbsp;Drys
+			    fiskene med majsmel og ryst overskydende mel af</p>
+			    <p><input type="checkbox"> &nbsp;Varm
+			    en pande op og kom 1 dL olie i</p>
+			    <p><input type="checkbox"> &nbsp;N&aring;r
+			    olien er varm skrues ned til 6 ud af 9</p>
+			    <p><input type="checkbox"> &nbsp;L&aelig;g
+			    forsigtigt fiskene i og steg dem 5-7 minutter p&aring; hver side</p>
+			    <p><input type="checkbox"> &nbsp;Mens
+			    de steger l&aelig;gges 3 lag k&oslash;kkenrulle p&aring; en
+			    tallerken</p>
+			    <p><input type="checkbox"> &nbsp;Tag
+			    fiskene af panden og l&aelig;g dem p&aring; k&oslash;kkenrullen p&aring;
+			    tallerkenen for at dryppe af</p>
+			    <p><input type="checkbox"> &nbsp;En
+			    sauterpande varmes op og der kommes 1 spsk olie i</p>
+			    <p><input type="checkbox"> &nbsp;Det
+			    hakkede l&oslash;g og hvidl&oslash;g svitses let. Det m&aring; ikke
+			    blive brunt</p>
+			    <p><input type="checkbox"> &nbsp;Kom
+			    den revne ingef&aelig;r i og r&oslash;r rundt</p>
+			    <p><input type="checkbox"> &nbsp;Kom
+			    cherrytomaterne i og svits dem til skindet spr&aelig;kker</p>
+			    <p><input type="checkbox"> &nbsp;H&aelig;ld
+			    blandingen af sukker, eddike, tomatpure og fiskesovs i</p>
+			    <p><input type="checkbox"> &nbsp;Skru
+			    ned og lad det simre et par minutter</p>
+			    <p><input type="checkbox"> &nbsp;Smag
+			    eventuelt til med sukker eller eddike</p>
+			    <p><input type="checkbox"> &nbsp;R&oslash;r
+			    vand-majsstivelsesblandingen i og kog til sovsen tykner lidt</p>
+			    <p><input type="checkbox"> &nbsp;Kom
+			    fiskene i sovsen og vend dem rundt</p>
+			    <p><input type="checkbox"> &nbsp;Pynt
+			    eventuelt med koriander kviste og skiver af r&oslash;dl&oslash;g
+			    </p>
+			    <p><input type="checkbox"> &nbsp;Server med ris og eventuelt en salat</p>
+
+					<p align="right">(Slut)</p>
+				</div>
+			</div>   <!-- <div class="opskrifter"> -->
+
+<button class="kategori">
 		<h1>Kylling</h1>
 	</button>
 
@@ -1085,7 +1089,7 @@
     </button>
 
   	<div class="ingredienser">
-			<p>(4 personer) (Start 1 time f&oslash;r)</p>
+			<p class="antal">(4 personer) (Start 1 time f&oslash;r)</p>
   		<u>Ingredienser:</u>
 
   		<p><input type="checkbox"> &nbsp; 1-2 pakker f&aelig;rdige
@@ -1152,7 +1156,7 @@
     </button>
 
   	<div class="ingredienser">
-			<p>(4 personer &ndash;		2 Bao til hver) (Start 2 timer f&oslash;r)</p>
+			<p class="antal">(4 personer &ndash;		2 Bao til hver) (Start 2 timer f&oslash;r)</p>
   		<u>Ingredienser:</u>
   		<br/>
 
@@ -1302,7 +1306,7 @@
     </button>
 
   	<div class="ingredienser">
-			<p>(3 &ndash; 4 personer) (Start 2 timer f&oslash;r)</p>
+			<p class="antal">(3 &ndash; 4 personer) (Start 2 timer f&oslash;r)</p>
   		<u>Ingredienser:</u>
 
   		<p><input type="checkbox"> &nbsp; 1 kylling</p>
@@ -1378,7 +1382,7 @@
     </button>
 
   	<div class="ingredienser">
-			<p>(4-6 personer)	(Start 3 timer f&oslash;r)</p>
+			<p class="antal">(4-6 personer)	(Start 3 timer f&oslash;r)</p>
     		<u>Ingredienser:</u>
 
     		<p><input type="checkbox"> &nbsp; 1 kylling</p>
@@ -1533,7 +1537,7 @@
     </button>
 
     	<div class="ingredienser">
-				<p>(4 personer) (Start 1&frac12; time f&oslash;r)</p>
+				<p class="antal">(4 personer) (Start 1&frac12; time f&oslash;r)</p>
     		<u>Ingredienser:</u>
 
     		<p><input type="checkbox"> &nbsp; 50 g sm&oslash;r</p>
@@ -1646,7 +1650,7 @@
     </button>
 
   	<div class="ingredienser">
-			<p>(4 personer) (Start 1&frac12; time f&oslash;r)</p>
+			<p class="antal">(4 personer) (Start 1&frac12; time f&oslash;r)</p>
   		<u>Ingredienser:</u>
 
   		<p><input type="checkbox"> &nbsp; 500 g majs</p>
@@ -1729,7 +1733,7 @@
     </button>
 
   	<div class="ingredienser">
-			<p>(16 horn/boller)		(Start 1-2 timer f&oslash;r)</p>
+			<p class="antal">(16 horn/boller)		(Start 1-2 timer f&oslash;r)</p>
   		<u>Ingredienser:</u>
 
   		<p><input type="checkbox"> &nbsp; 50 g g&aelig;r</p>
@@ -1788,7 +1792,7 @@
     </button>
 
 		<div class="ingredienser">
-			<p>(16 store boller)		(Start 1-2 timer f&oslash;r)</p>
+			<p class="antal">(16 store boller)		(Start 1-2 timer f&oslash;r)</p>
 			<u>Ingredienser:</u>
 
 			<p><input type="checkbox"> &nbsp; 100 g g&aelig;r (evt. 50 g g&aelig;r og dobbelt h&aelig;vetid)</p>
@@ -1866,7 +1870,7 @@
     </button>
 
 		<div class="ingredienser">
-			<p>(1 br&oslash;d)		(Start 7-14 timer f&oslash;r.
+			<p class="antal">(1 br&oslash;d)		(Start 7-14 timer f&oslash;r.
 				Typisk lidt f&oslash;r du g&aring;r i seng)</p>
 			<u>Ingredienser:</u>
 			<p><input type="checkbox"> &nbsp; 5 dL vand</p>
@@ -1964,7 +1968,7 @@
     </button>
 
 		<div class="ingredienser">
-			<p>(12-16 stk) (Start 2 timer f&oslash;r)</p>
+			<p class="antal">(12-16 stk) (Start 2 timer f&oslash;r)</p>
 			<u>Ingredienser:</u>
 			<p><input type="checkbox"> &nbsp; 50 g g&aelig;r</p>
 			<p><input type="checkbox"> &nbsp; 5 dL vand</p>
@@ -2055,7 +2059,7 @@
     </button>
 
   	<div class="ingredienser">
-			<p>(16-24 stk eller 2 br&oslash;d) (Start 3 timer f&oslash;r)</p>
+			<p class="antal">(16-24 stk eller 2 br&oslash;d) (Start 3 timer f&oslash;r)</p>
   		<u>Ingredienser:</u>
   		<p><input type="checkbox"> &nbsp; 50 g g&aelig;r</p>
   		<p><input type="checkbox"> &nbsp; 2 flasker
@@ -2120,7 +2124,7 @@
     </button>
 
   	<div class="ingredienser">
-			<p>(24 stk) (Start 3 timer f&oslash;r)</p>
+			<p class="antal">(24 stk) (Start 3 timer f&oslash;r)</p>
   		<u>Ingredienser:</u>
   		<p><input type="checkbox"> &nbsp; 50 g g&aelig;r</p>
   		<p><input type="checkbox"> &nbsp; 2 dL m&aelig;lk</p>
@@ -2205,7 +2209,7 @@
     </button>
 
   	<div class="ingredienser">
-			<p>(1 stk) (Start 3 timer f&oslash;r)</p>
+			<p class="antal">(1 stk) (Start 3 timer f&oslash;r)</p>
   		<u>Ingredienser:</u>
   		<p><input type="checkbox"> &nbsp; 100 g kn&aelig;kket	hvede</p>
   		<p><input type="checkbox"> &nbsp; 300 g	grahamsmel</p>
@@ -2252,7 +2256,7 @@
     </button>
 
   	<div class="ingredienser">
-			<p>(4 personer) (Start 1&frac12; time f&oslash;r)</p>
+			<p class="antal">(4 personer) (Start 1&frac12; time f&oslash;r)</p>
   		<u>Ingredienser:</u>
 
   		<p>50 g g&aelig;r</p>
@@ -2310,7 +2314,7 @@
     </button>
 
   	<div class="ingredienser">
-			<p>(4 personer) (Start 2 timer f&oslash;r)</p>
+			<p class="antal">(4 personer) (Start 2 timer f&oslash;r)</p>
   		<u>Ingredienser:</u>
 
   		<p><input type="checkbox"> &nbsp; 0,6 L k&aelig;rnem&aelig;lk</p>
@@ -2360,7 +2364,7 @@
     </button>
 
   	<div class="ingredienser">
-			<p>(4 personer) (Start 1 time f&oslash;r)</p>
+			<p class="antal">(4 personer) (Start 1 time f&oslash;r)</p>
   		<u>Ingredienser:</u>
 
   		<p><input type="checkbox"> &nbsp; 125 g sm&oslash;r</p>
@@ -2429,18 +2433,75 @@
 
 		</div>
 	</div>   <!-- <div class="opskrifter"> -->
+
 	<button class="kategori">
 		<h1>Tilbeh&oslash;r</h1>
 	</button>
 
 	<div class="opskrifter">
 
+		<button class="recipe">
+     <h2>Pasta p&aring; sparemetode</h2>
+    </button>
+
+  	<div class="ingredienser">
+			<p class="antal">(3 - 4 personer)		(Start &frac12; time f&oslash;r)</p>
+  		<u>Ingredienser:</u>
+
+  		<p><input type="checkbox"> &nbsp;300 g pasta</p>
+  		<p><input type="checkbox"> &nbsp; vand s&aring; det d&aelig;kker pastaen</p>
+  		<p><input type="checkbox"> &nbsp; 1 tsk salt</p>
+  	</div>
+
+		<div class="howto"><u>Fremgangsm&aring;de:</u>
+
+    <p><input type="checkbox"> &nbsp; Kom 300 g pasta i en gryde</p>
+		<p><input type="checkbox"> &nbsp; H&aelig;ld vand p&aring; s&aring; pastaen er helt d&aelig;kket, men ikke meget mere</p>
+		<p><input type="checkbox"> &nbsp; Bring vandet med pastaen i kog</p>
+		<p><input type="checkbox"> &nbsp; Kom 1 tsk salt i gryden og r&oslash;r rundt. L&aelig;g l&aring;g p&aring; </p>
+		<p><input type="checkbox"> &nbsp; S&aelig;t minuturet p&aring; 8-12 minutter (se p&aring; posen og l&aelig;g 1 minut til)</p>
+		<p><input type="checkbox"> &nbsp; S&aelig;t tallerkenerne p&aring; l&aring;get s&aring; de kan blive varme. (Det g&oslash;r pastarretter <em>meget</em> l&aelig;krere at spise p&aring; varme tallerkener!)</p>
+		<p><input type="checkbox"> &nbsp; N&aring;r minuturet ringer smages p&aring; et stykke pasta for at se om det er m&oslash;rt. Lad det st&aring; lidt l&aelig;ngere, hvis der er for meget bid i endnu</p>
+
+		<p align="right">(Slut)</p>
+
+		</div>
+
+
+		<button class="recipe">
+     <h2>Ris</h2>
+    </button>
+
+  	<div class="ingredienser">
+			<p class="antal">(3 - 4 personer)		(Start &frac12; time f&oslash;r)</p>
+  		<u>Ingredienser:</u>
+
+  		<p><input type="checkbox"> &nbsp;3,75 dL vand (Altid 1,5 dL vand til 1 dL ris)</p>
+  		<p><input type="checkbox"> &nbsp; 2,5 dL ris (Skriv ned et sted hvor meget ris dem du laver mad til normalt spiser)</p>
+  		<p><input type="checkbox"> &nbsp; 1 tsk salt</p>
+  	</div>
+
+		<div class="howto"><u>Fremgangsm&aring;de:</u>
+
+    <p><input type="checkbox"> &nbsp; Bring 3,75 dL vand i kog i en lille gryde.</p>
+		<p><input type="checkbox"> &nbsp; Skyl imens 2,5 dL ris i en si</p>
+		<p><input type="checkbox"> &nbsp; Kom 1 tsk salt oven i de v&aring;de ris (for ikke at glemme salt)</p>
+		<p><input type="checkbox"> &nbsp; N&aring;r vandet koger kommes risene i, og der r&oslash;res rundt. L&aelig;g l&aring;g p&aring; </p>
+		<p><input type="checkbox"> &nbsp; S&aelig;t minuturet p&aring; 12 minutter og skru ned p&aring; 1 (ud af 9)</p>
+		<p><input type="checkbox"> &nbsp; S&aelig;t evt. tallerkenerne p&aring; l&aring;get s&aring; de kan blive varme</p>
+		<p><input type="checkbox"> &nbsp; N&aring;r minuturet ringer slukkes for blusset, og minuturet s&aelig;ttes igen p&aring; 12 minutter</p>
+		<p><input type="checkbox"> &nbsp; Risen er klar n&aring;r minuturet ringer, men de kan sagtens st&aring; et kvarter mere</p>
+
+		<p align="right">(Slut)</p>
+
+		</div>
+
     <button class="recipe">
      <h2>Hasselbach-kartofler</h2>
     </button>
 
   	<div class="ingredienser">
-			<p>(3 - 4 personer)		(Start 1&frac12; time f&oslash;r)</p>
+			<p class="antal">(3 - 4 personer)		(Start 1&frac12; time f&oslash;r)</p>
   		<u>Ingredienser:</u>
 
   		<p><input type="checkbox"> &nbsp; 1 kg	kartofler</p>
@@ -2496,7 +2557,7 @@
     </button>
 
   	<div class="ingredienser">
-			<p>(4 personer) (Start lidt over 1&frac12; time f&oslash;r)</p>
+			<p class="antal">(4 personer) (Start lidt over 1&frac12; time f&oslash;r)</p>
   		<u>Ingredienser:</u>
 
   		<p><input type="checkbox"> &nbsp;1 stor	bagekartoffel pr. person</p>
@@ -2543,7 +2604,7 @@
 		</button>
 
 		<div class="ingredienser">
-			<p>(4 personer) (Start lidt over &frac12; time f&oslash;r)</p>
+			<p class="antal">(4 personer) (Start lidt over &frac12; time f&oslash;r)</p>
 			<u>Ingredienser:</u>
 
 			<p><input type="checkbox"> &nbsp;1-2 salatblade pr. person</p>
@@ -2577,7 +2638,7 @@
 		</div>
 	</div>   <!-- <div class="opskrifter"> -->
 
-	<button class="kategori">
+  <button class="kategori">
 		<h1>Desserter</h1>
 	</button>
 
@@ -2588,7 +2649,7 @@
     </button>
 
 		  	<div class="ingredienser">
-					<p>(4 personer) (Start 5-6 timer f&oslash;r, 1 time f&oslash;r
+					<p class="antal">(4 personer) (Start 5-6 timer f&oslash;r, 1 time f&oslash;r
 						hvis der bruges is-maskine)</p>
 		  		<u>Ingredienser:</u>
 
@@ -2624,7 +2685,8 @@
 				</div>
 
 			</div>		<!-- class opskrifter -->
-			<button class="kategori">
+
+<button class="kategori">
 				<h1>Tips og tricks</h1>
 			</button>
 
