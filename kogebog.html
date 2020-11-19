@@ -11,8 +11,10 @@
     li, u, p {font-size: 12pt; font-style: normal;}
     q {font-style: italic;}
 		button {width: 100%;}
-		.ingredienser {background-color: antiquewhite;}
-		.howto {background-color: peachpuff;}
+		.kategori {background-color: chocolate; border-radius: 5px;}
+		.recipe {background-color: bisque; border-radius: 5px;}
+		.ingredienser {background-color: antiquewhite; border-radius: 5px;}
+		.howto {background-color: peachpuff; border-radius: 5px;}
 		</style>
 		<script type="text/javascript" src="jquery-3.5.1.js"></script>
 		<script type="text/javascript" src="main.js"></script>
@@ -22,127 +24,11 @@
 
 <div class="oversigt">
 
-		<h1>Tips og tricks</h1>
-
-		<div class="opskrifter">
-
-		<button class="recipe">
-			<h2>Basis ingredienser</h2>
-		</button>
-
-	<div class="ingredienser">
-		<p>Hav altid grundingredienser i k&oslash;kkenet (Vejledende t	jekliste nedenfor)</p>
-		<p>Skriv <em>straks</em> ting
-		p&aring; indk&oslash;bslisten n&aring;r du t&oslash;mmer en
-		pakke/pose/&aelig;ske/&hellip;</p>
-		<p>Det er en god ide at have to af de
-		vigtigste ting, s&aring; der er tid til at k&oslash;be en ny portion.</p>
-
-		<p>Ingredienser man altid b&oslash;r have i k&oslash;kkenskabet:</p>
-		<ul>
-			<p><input type="checkbox">&nbsp;Hvidt hvedemel - og fuldkornsmel hvis du bager meget</p>
-			<p><input type="checkbox">&nbsp;Havregryn</p>
-			<p><input type="checkbox">&nbsp;Sukker - hvidt og brunt r&oslash;rsukker</p>
-			<p><input type="checkbox">&nbsp;N&oslash;dder (mandler, hasseln&oslash;dder, ...)</p>
-			<p><input type="checkbox">&nbsp;Havsalt</p>
-			<p><input type="checkbox">&nbsp;Olie - B&aring;de olivenolie til salatdressing og vindruekerneolie til at stege i</p>
-			<p><input type="checkbox">&nbsp;Ris</p>
-			<p><input type="checkbox">&nbsp;Pasta (1-4 slags)</p>
-			<p><input type="checkbox">&nbsp;G&aelig;r - og/eller surdej</p>
-			<p><input type="checkbox">&nbsp;L&oslash;g</p>
-			<p><input type="checkbox">&nbsp;Hvidl&oslash;g</p>
-			<p><input type="checkbox">&nbsp;Vineddike (Balsamico)</p>
-			<p><input type="checkbox">&nbsp;Tomatkoncentrat p&aring; tube</p>
-			<p><input type="checkbox">&nbsp;Fiskesovs</p>
-			<p><input type="checkbox">&nbsp;R&oslash;d karrypasta</p>
-			<p><input type="checkbox">&nbsp;Soya</p>
-			<p><input type="checkbox">&nbsp;Bouillon - Herbamare har f&aelig;rrest tils&aelig;tningstoffer</p>
-			<p><input type="checkbox">&nbsp;Bagepulver</p>
-			<p><input type="checkbox">&nbsp;</p>
-			<p><input type="checkbox">&nbsp;</p>
-			<p>De almindeligste krydderier:</p>
-			<ul>
-				<p><input type="checkbox">&nbsp;Chilli</p>
-				<p><input type="checkbox">&nbsp;Kanel</p>
-				<p><input type="checkbox">&nbsp;Kardemomme (helst hel)</p>
-				<p><input type="checkbox">&nbsp;Karry</p>
-				<p><input type="checkbox">&nbsp;Koriander</p>
-				<p><input type="checkbox">&nbsp;Laurb&aelig;rblade</p>
-				<p><input type="checkbox">&nbsp;Oregano</p>
-				<p><input type="checkbox">&nbsp;Paprika</p>
-				<p><input type="checkbox">&nbsp;Peber</p>
-				<p><input type="checkbox">&nbsp;Spidskommen</p>
-				<p><input type="checkbox">&nbsp;Timian</p>
-				<p><input type="checkbox">&nbsp;Vaniljestang</p>
-			</ul>
-		</ul>
-	</div>
-
-		<button class="recipe">
-			<h2>Indk&oslash;b</h2>
-		</button>
-
-		<div class="ingredienser">
-			<p>Tjek hvad du har i skabe og skuffer f&oslash;r du k&oslash;ber
-			ind, s&aring; du ikke k&oslash;ber alt for meget.</p>
-			<p>Tag et mellemm&aring;ltid f&oslash;r du k&oslash;ber ind. Hvis man
-	    er sulten bliver man alt for let fristet af ting man reelt ikke har
-	    brug for.</p>
-	    <p>Pas p&aring; <q>2 for ...</q>-tilbud. Hvis du ikke er
-	    	sikker p&aring; at f&aring; brugt den ekstra ting er det dyrere. Men
-	    	er holdbarheden lang (1-2 &aring;r), og du har r&aring;d, kan det tit
-	    	betale sig at hamstre fire (men sj&aelig;ldent 8!!)</p>
-			<p>Det kan v&aelig;re sv&aelig;rt at v&aelig;lge mellem forskellige
-			varer. Forskning tyder p&aring; at vi er gladere hvis vi kan v&aelig;lge
-			mellem 2-4 ting end hvis der ikke er valg eller for mange valg.
-			<br>
-			Man kan begr&aelig;nse valgene for sig selv ved at g&aring efter varer der
-			l&aelig;gger v&aelig;gt p&aring; &oslash;kologisk/fair
-			trade/dyrevelf&aelig;rd/uden tils&aelig;tningstoffer.</p>
-			<p>L&aelig;s deklarationen p&aring; varer du ikke kender. Nogle gange
-			indeholder nye varer de m&aelig;rkeligste ting. Byg langsomt et
-			bibliotek af kendte varer op og hold dig til dem. Bem&aelig;rk: Start
-			med at antage at de varer du altid har k&oslash;bt er ok. N&aring;r
-			du er blevet mere vant til at l&aelig;se deklarationer kan du &rdquo;g&aring;
-			tilbage&rdquo; og vurdere gammelkendte varer.</p>
-			<p>V&aelig;r opm&aelig;rksom p&aring; at der er &rdquo;koder&rdquo; i
-			varenavne. Hvis noget kaldes <q>frugtdrik</q> er der meget
-			lidt frugt i det, mens <q>juice</q> er ren frugtsaft.
-			Vendinger som <q>Med ...-smag</q> d&aelig;kker over at
-			der sj&aelig;ldent er den n&aelig;vnte ingrediens i.</p>
-			<p>Energiindhold er som regel pr 100 g, men pakninger sj&aelig;ldent
-			er pr&aelig;cis 100 g. Husk at gange op/ned.</p>
-		</div>
-
-		<button class="recipe">
-			<h2>Sundhed</h2>
-		</button>
-
-		<div class="ingredienser">
-			<p>K&oslash;l altid rester hurtigt ned og s&aelig;t dem i k&oslash;leskab.
-			I praksis betyder det: Lad dem st&aring; p&aring; k&oslash;kkenbordet
-			en time og s&aelig;t dem i k&oslash;leskabet lunkne. Det kan v&aelig;re
-			en god ide at s&aelig;tte en timer, s&aring; man ikke glemmer dem i
-			flere timer. Det er dumt at s&aelig;tte brandvarme rester i
-			k&oslash;leskabet, da det varmer de andre ting i k&oslash;leskabet op
-			og bruger ekstra str&oslash;m. Der er n&aelig;sten heller ikke
-			forskel p&aring; hvor hurtigt noget k&oslash;ler p&aring;
-			k&oslash;kkenbordet og i k&oslash;leskabet, n&aring;r temperaturen er
-			over 30<i>&ordm;</i> C.</p>
-			<p>Det er en god ide at skylle ris f&oslash;r de kommes i gryden, da
-			man s&aring; kan fjerne en del af den arsen der naturligt findes i
-			jorden de steder hvor man dyrker ris. Arsen er kr&aelig;ftfremkaldende,
-			s&aring; det er godt at undg&aring;, men der er ingen grund til at
-			v&aelig;re hysterisk. Basmati ris har vist nok det laveste indhold af
-			arsen &ndash; og s&aring; smager de bedst!
-			</p>
-		</div>
-
-
-
+		<button class="kategori">
 			<h1>Fisk</h1>
+		</button>
 
-			<!-- <div class="opskrifter"> -->
+			<div class="opskrifter">
 
 				<button class="recipe">
 		     <h2>Kuller p&aring; dj&aelig;vlemaner (med salat)</h2>
@@ -562,8 +448,12 @@
 
 			<p align="right">(Slut)</p>
 		</div>
+	</div>   <!-- <div class="opskrifter"> -->
 
+	<button class="kategori">
 		<h1>Vegetarisk</h1>
+	</button>
+	<div class="opskrifter">
 
     <button class="recipe">
      <h2>Minutnudler med sesam</h2>
@@ -1182,8 +1072,13 @@
 		<p align="right">(Slut)</p>
 
 		</div>
+	</div>   <!-- <div class="opskrifter"> -->
 
+	<button class="kategori">
 		<h1>Kylling</h1>
+	</button>
+
+	<div class="opskrifter">
 
     <button class="recipe">
      <h2>Tarteletter med kylling og asparges</h2>
@@ -1625,8 +1520,13 @@
 		<p align="right">(Slut)</p>
 
 	</div>
+</div>   <!-- <div class="opskrifter"> -->
 
-		<h1>K&oslash;d</h1>
+<button class="kategori">
+	<h1>K&oslash;d</h1>
+</button>
+
+<div class="opskrifter">
 
     <button class="recipe">
      <h2>Oksek&oslash;d i fad med kartoffelmos</h2>
@@ -1815,8 +1715,14 @@
 		<p align="right">(Slut)</p>
 
 	</div>
+</div>   <!-- <div class="opskrifter"> -->
 
-		<h1>Bagv&aelig;rk</h1>
+<button class="kategori">
+	<h1>Bagv&aelig;rk</h1>
+</button>
+
+<div class="opskrifter">
+
 
     <button class="recipe">
      <h2>Grove Horn</h2>
@@ -2522,8 +2428,12 @@
 		<p align="right">(Slut)</p>
 
 		</div>
-
+	</div>   <!-- <div class="opskrifter"> -->
+	<button class="kategori">
 		<h1>Tilbeh&oslash;r</h1>
+	</button>
+
+	<div class="opskrifter">
 
     <button class="recipe">
      <h2>Hasselbach-kartofler</h2>
@@ -2665,53 +2575,176 @@
 			salt</p>
 			<p><input type="checkbox"> &nbsp;Server	salaten</p>
 		</div>
+	</div>   <!-- <div class="opskrifter"> -->
 
+	<button class="kategori">
 		<h1>Desserter</h1>
+	</button>
+
+	<div class="opskrifter">
 
 		<button class="recipe">
      <h2>Hjemmelavet is</h2>
     </button>
 
-  	<div class="ingredienser">
-			<p>(4 personer) (Start 5-6 timer f&oslash;r, 1 time f&oslash;r
-				hvis der bruges is-maskine)</p>
-  		<u>Ingredienser:</u>
+		  	<div class="ingredienser">
+					<p>(4 personer) (Start 5-6 timer f&oslash;r, 1 time f&oslash;r
+						hvis der bruges is-maskine)</p>
+		  		<u>Ingredienser:</u>
 
-  		<p><input type="checkbox"> &nbsp; 4 sterile &aelig;gblommer</p>
-  		<p><input type="checkbox"> &nbsp; 60 g sukker</p>
-  		<p><input type="checkbox"> &nbsp; &frac12; l piskefl&oslash;de</p>
-  		<p><input type="checkbox"> &nbsp; &frac12; vaniljestang (1 spsk
-  		vaniljesukker)</p>
+		  		<p><input type="checkbox"> &nbsp; 4 sterile &aelig;gblommer</p>
+		  		<p><input type="checkbox"> &nbsp; 60 g sukker</p>
+		  		<p><input type="checkbox"> &nbsp; &frac12; l piskefl&oslash;de</p>
+		  		<p><input type="checkbox"> &nbsp; &frac12; vaniljestang (1 spsk
+		  		vaniljesukker)</p>
 
-  		<p><input type="checkbox"> &nbsp; (200 g finthakkede svesker eller anden frugt <i>eller</i>
-  		50-100 g grofthakket chokolade)</p>
-  	</div>
+		  		<p><input type="checkbox"> &nbsp; (200 g finthakkede svesker eller anden frugt <i>eller</i>
+		  		50-100 g grofthakket chokolade)</p>
+		  	</div>
 
-		<div class="howto"><u>Fremgangsm&aring;de:</u>
+				<div class="howto"><u>Fremgangsm&aring;de:</u>
 
-	    <p><input type="checkbox"> &nbsp;Vaniljekornene
-	    skrabes ud af den fl&aelig;kkede halve vaniljestang</p>
-	    <p><input type="checkbox"> &nbsp;&AElig;ggeblommerne
-	    piskes hvide med sukkeret i en Margrethe-sk&aring;l</p>
-	    <p><input type="checkbox"> &nbsp;Kom vaniljekorn
-	    (og eventuelt frugt) i. Blend eventuelt frugten med en stavblender.</p>
-	    <p><input type="checkbox"> &nbsp; Fl&oslash;den
-	    piskes stiv i en anden Margrethe-sk&aring;l og vendes i</p>
-	    <p><input type="checkbox"> &nbsp;Fryses mindst 4
-	    timer i fryseren. R&oslash;r rundt en gang i timen for at undg&aring;
-	    iskrystaller.</p>
-	    <p><input type="checkbox"> &nbsp;Hvis der ikke
-	    bruges frugt: hak en halv plade chokolade groft og r&oslash;r den i
-	    n&aring;r isen er trekvart-frossen</p>
+			    <p><input type="checkbox"> &nbsp;Vaniljekornene
+			    skrabes ud af den fl&aelig;kkede halve vaniljestang</p>
+			    <p><input type="checkbox"> &nbsp;&AElig;ggeblommerne
+			    piskes hvide med sukkeret i en Margrethe-sk&aring;l</p>
+			    <p><input type="checkbox"> &nbsp;Kom vaniljekorn
+			    (og eventuelt frugt) i. Blend eventuelt frugten med en stavblender.</p>
+			    <p><input type="checkbox"> &nbsp; Fl&oslash;den
+			    piskes stiv i en anden Margrethe-sk&aring;l og vendes i</p>
+			    <p><input type="checkbox"> &nbsp;Fryses mindst 4
+			    timer i fryseren. R&oslash;r rundt en gang i timen for at undg&aring;
+			    iskrystaller.</p>
+			    <p><input type="checkbox"> &nbsp;Hvis der ikke
+			    bruges frugt: hak en halv plade chokolade groft og r&oslash;r den i
+			    n&aring;r isen er trekvart-frossen</p>
 
-			<p>Server med is-vafler eller chokoladeruller.</p>
-			<p align="right">(Slut)</p>
-		</div>
-		<br>
-		<br>
-		<br>
+					<p>Server med is-vafler eller chokoladeruller.</p>
+					<p align="right">(Slut)</p>
+				</div>
 
 			</div>		<!-- class opskrifter -->
+			<button class="kategori">
+				<h1>Tips og tricks</h1>
+			</button>
+
+			<div class="opskrifter">
+
+			<button class="recipe">
+				<h2>Basis ingredienser</h2>
+			</button>
+
+			<div class="ingredienser">
+				<p>Hav altid grundingredienser i k&oslash;kkenet (Vejledende t	jekliste nedenfor)</p>
+				<p>Skriv <em>straks</em> ting
+				p&aring; indk&oslash;bslisten n&aring;r du t&oslash;mmer en
+				pakke/pose/&aelig;ske/&hellip;</p>
+				<p>Det er en god ide at have to af de
+				vigtigste ting, s&aring; der er tid til at k&oslash;be en ny portion.</p>
+
+				<p>Ingredienser man altid b&oslash;r have i k&oslash;kkenskabet:</p>
+				<ul>
+					<p><input type="checkbox">&nbsp;Hvidt hvedemel - og fuldkornsmel hvis du bager meget</p>
+					<p><input type="checkbox">&nbsp;Havregryn</p>
+					<p><input type="checkbox">&nbsp;Sukker - hvidt og brunt r&oslash;rsukker</p>
+					<p><input type="checkbox">&nbsp;N&oslash;dder (mandler, hasseln&oslash;dder, ...)</p>
+					<p><input type="checkbox">&nbsp;Havsalt</p>
+					<p><input type="checkbox">&nbsp;Olie - B&aring;de olivenolie til salatdressing og vindruekerneolie til at stege i</p>
+					<p><input type="checkbox">&nbsp;Ris</p>
+					<p><input type="checkbox">&nbsp;Pasta (1-4 slags)</p>
+					<p><input type="checkbox">&nbsp;G&aelig;r - og/eller surdej</p>
+					<p><input type="checkbox">&nbsp;L&oslash;g</p>
+					<p><input type="checkbox">&nbsp;Hvidl&oslash;g</p>
+					<p><input type="checkbox">&nbsp;Vineddike (Balsamico)</p>
+					<p><input type="checkbox">&nbsp;Tomatkoncentrat p&aring; tube</p>
+					<p><input type="checkbox">&nbsp;Fiskesovs</p>
+					<p><input type="checkbox">&nbsp;R&oslash;d karrypasta</p>
+					<p><input type="checkbox">&nbsp;Soya</p>
+					<p><input type="checkbox">&nbsp;Bouillon - Herbamare har f&aelig;rrest tils&aelig;tningstoffer</p>
+					<p><input type="checkbox">&nbsp;Bagepulver</p>
+					<p><input type="checkbox">&nbsp;</p>
+					<p><input type="checkbox">&nbsp;</p>
+					<p>De almindeligste krydderier:</p>
+					<ul>
+						<p><input type="checkbox">&nbsp;Chilli</p>
+						<p><input type="checkbox">&nbsp;Kanel</p>
+						<p><input type="checkbox">&nbsp;Kardemomme (helst hel)</p>
+						<p><input type="checkbox">&nbsp;Karry</p>
+						<p><input type="checkbox">&nbsp;Koriander</p>
+						<p><input type="checkbox">&nbsp;Laurb&aelig;rblade</p>
+						<p><input type="checkbox">&nbsp;Oregano</p>
+						<p><input type="checkbox">&nbsp;Paprika</p>
+						<p><input type="checkbox">&nbsp;Peber</p>
+						<p><input type="checkbox">&nbsp;Spidskommen</p>
+						<p><input type="checkbox">&nbsp;Timian</p>
+						<p><input type="checkbox">&nbsp;Vaniljestang</p>
+					</ul>
+				</ul>
+			</div>
+
+				<button class="recipe">
+					<h2>Indk&oslash;b</h2>
+				</button>
+
+				<div class="ingredienser">
+					<p>Tjek hvad du har i skabe og skuffer f&oslash;r du k&oslash;ber
+					ind, s&aring; du ikke k&oslash;ber alt for meget.</p>
+					<p>Tag et mellemm&aring;ltid f&oslash;r du k&oslash;ber ind. Hvis man
+			    er sulten bliver man alt for let fristet af ting man reelt ikke har
+			    brug for.</p>
+			    <p>Pas p&aring; <q>2 for ...</q>-tilbud. Hvis du ikke er
+			    	sikker p&aring; at f&aring; brugt den ekstra ting er det dyrere. Men
+			    	er holdbarheden lang (1-2 &aring;r), og du har r&aring;d, kan det tit
+			    	betale sig at hamstre fire (men sj&aelig;ldent 8!!)</p>
+					<p>Det kan v&aelig;re sv&aelig;rt at v&aelig;lge mellem forskellige
+					varer. Forskning tyder p&aring; at vi er gladere hvis vi kan v&aelig;lge
+					mellem 2-4 ting end hvis der ikke er valg eller for mange valg.
+					<br>
+					Man kan begr&aelig;nse valgene for sig selv ved at g&aring efter varer der
+					l&aelig;gger v&aelig;gt p&aring; &oslash;kologisk/fair
+					trade/dyrevelf&aelig;rd/uden tils&aelig;tningstoffer.</p>
+					<p>L&aelig;s deklarationen p&aring; varer du ikke kender. Nogle gange
+					indeholder nye varer de m&aelig;rkeligste ting. Byg langsomt et
+					bibliotek af kendte varer op og hold dig til dem. Bem&aelig;rk: Start
+					med at antage at de varer du altid har k&oslash;bt er ok. N&aring;r
+					du er blevet mere vant til at l&aelig;se deklarationer kan du &rdquo;g&aring;
+					tilbage&rdquo; og vurdere gammelkendte varer.</p>
+					<p>V&aelig;r opm&aelig;rksom p&aring; at der er &rdquo;koder&rdquo; i
+					varenavne. Hvis noget kaldes <q>frugtdrik</q> er der meget
+					lidt frugt i det, mens <q>juice</q> er ren frugtsaft.
+					Vendinger som <q>Med ...-smag</q> d&aelig;kker over at
+					der sj&aelig;ldent er den n&aelig;vnte ingrediens i.</p>
+					<p>Energiindhold er som regel pr 100 g, men pakninger sj&aelig;ldent
+					er pr&aelig;cis 100 g. Husk at gange op/ned.</p>
+				</div>
+
+				<button class="recipe">
+					<h2>Sundhed</h2>
+				</button>
+
+				<div class="ingredienser">
+					<p>K&oslash;l altid rester hurtigt ned og s&aelig;t dem i k&oslash;leskab.
+					I praksis betyder det: Lad dem st&aring; p&aring; k&oslash;kkenbordet
+					en time og s&aelig;t dem i k&oslash;leskabet lunkne. Det kan v&aelig;re
+					en god ide at s&aelig;tte en timer, s&aring; man ikke glemmer dem i
+					flere timer. Det er dumt at s&aelig;tte brandvarme rester i
+					k&oslash;leskabet, da det varmer de andre ting i k&oslash;leskabet op
+					og bruger ekstra str&oslash;m. Der er n&aelig;sten heller ikke
+					forskel p&aring; hvor hurtigt noget k&oslash;ler p&aring;
+					k&oslash;kkenbordet og i k&oslash;leskabet, n&aring;r temperaturen er
+					over 30<i>&ordm;</i> C.</p>
+					<p>Det er en god ide at skylle ris f&oslash;r de kommes i gryden, da
+					man s&aring; kan fjerne en del af den arsen der naturligt findes i
+					jorden de steder hvor man dyrker ris. Arsen er kr&aelig;ftfremkaldende,
+					s&aring; det er godt at undg&aring;, men der er ingen grund til at
+					v&aelig;re hysterisk. Basmati ris har vist nok det laveste indhold af
+					arsen &ndash; og s&aring; smager de bedst!
+					</p>
+				</div>
+			</div>   <!-- <div class="opskrifter"> -->
+			<br>
+			<br>
+			<br>
 		</div>		<!-- class oversigt -->
 	</body>
 </html>
