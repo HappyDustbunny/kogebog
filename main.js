@@ -17,6 +17,7 @@ $(function() {
     $('.howto').hide();
 
     $('#foldOutFoldIn')[0].value = 'unfold';
+    $('#foldOutFoldIn')[0].textContent = 'Fold alt ud (for at kunne s\u00f8ge)';
   }
 
   function show() {
@@ -25,6 +26,7 @@ $(function() {
     $('.howto').show();
 
     $('#foldOutFoldIn')[0].value = 'fold';
+    $('#foldOutFoldIn')[0].textContent = 'Fold alt ind';
   }
 
   $('.slut').on('click', function() {
