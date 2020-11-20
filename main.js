@@ -3,11 +3,34 @@ $(function() {
   $('.ingredienser').hide();
   $('.howto').hide();
 
-  $('.unfold').on('click', function() {
-    $('.opskrifter').slideToggle();
-    $('.ingredienser').slideToggle();
-    $('.howto').slideToggle();
-  })
+  $('#foldOutFoldIn').on('click', function() {
+    if ($(this)[0].value == 'unfold') {
+      show();
+    } else {
+      hide();
+    }
+  });
+
+  function hide() {
+    $('.opskrifter').hide();
+    $('.ingredienser').hide();
+    $('.howto').hide();
+
+    $('#foldOutFoldIn')[0].value = 'unfold';
+  }
+
+  function show() {
+    $('.opskrifter').show();
+    $('.ingredienser').show();
+    $('.howto').show();
+
+    $('#foldOutFoldIn')[0].value = 'fold';
+  }
+
+  $('.slut').on('click', function() {
+    $('input').prop("checked", false);
+    hide();
+  });
 
   $('.oversigt').on('click', '.kategori', function(event) {
     event.preventDefault();

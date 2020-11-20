@@ -2,31 +2,14 @@
 <html lang="da">
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=windows-1252"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 		<title></title>
-		<style type="text/css">
-		body {font-size: 12pt; max-width: 650px; min-width: 350px; margin-left: auto;	margin-right: auto;}
-    h1 {font-size: 23pt; margin-bottom: 0px; margin-top: 0px; font-style: normal;}
-    h2 {font-size: 12pt; margin-bottom: 0px; margin-top: 0px; font-style: normal;}
-    h5 {font-size: 14pt; margin-bottom: 0px; font-style: normal;}
-    li, u, p {font-size: 12pt; font-style: normal;}
-    q {font-style: italic;}
-		button {width: 100%;}
-		.unfold {background-color: rgb(195, 235, 244); border-radius: 5px; padding: 7px; width: auto; position: absolute; right: 0px;}
-		.kategori {background-color: rgb(126, 230, 255); border-radius: 5px; padding: 7px;}
-		.recipe {background-color: rgb(205, 248, 255); border-radius: 5px; padding: 7px;}
-		.ingredienser {background-color: rgb(223, 244, 244); border-radius: 5px; padding: 7px;}
-		.howto {background-color: rgb(237, 255, 255); border-radius: 5px; padding: 7px;}
-		.antal {text-align: center; margin-top: 2px;}
-		/* .kategori {background-color: bisque; border-radius: 5px;}
-		.recipe {background-color: rgb(220, 150, 100); border-radius: 5px;}
-		.ingredienser {background-color: antiquewhite; border-radius: 5px;}
-		.howto {background-color: peachpuff; border-radius: 5px;} */
-		</style>
+	  <link rel="stylesheet" href="main.css">
 		<script type="text/javascript" src="jquery-3.5.1.js"></script>
 		<script type="text/javascript" src="main.js"></script>
 	</head>
 	<body lang="da-DK">
-		<button class="unfold">Fold alt ud (for at kunne s&oslash;ge)</button>
+		<button id="foldOutFoldIn" value="unfold">Fold alt ud (for at kunne s&oslash;ge)</button>
 		<br>
 		<p align="center" style="font-size: 40pt">Kogebog</p>
 
@@ -98,7 +81,7 @@
 		<p>Obs: Retten er
 		l&aelig;kker og nem, men ret fed. Den b&oslash;r ikke spises hver
 		dag&hellip;    </p>
-		<p align="right">(Slut)</p>
+		<button class="slut">(Slut)</button>
 
 		</div>
 
@@ -295,7 +278,7 @@
     blenderen</p>
     <p><input type="checkbox"> &nbsp;
     Smag til med salt, citron og spidskommen mens den k&oslash;rer)</p>
-    <p align="right">(Slut)</p>
+    <button class="slut">(Slut)</button>
 
     </div>
 
@@ -401,7 +384,7 @@
     overfladen har taget en smule farve.</p>
     <p><input type="checkbox"> &nbsp;Server
     t&aelig;rten varm eller lun med soya og m&aring;ske en salat.</p>
-    <p align="right">(Slut)</p>
+    <button class="slut">(Slut)</button>
 
 		</div>
 
@@ -506,7 +489,7 @@
     <p><input type="checkbox"> &nbsp;Serveres med
     dressingen og ris. <br> M&aring;ske agurkestave og tomater i terninger.</p>
 
-		<p align="right">(Slut)</p>
+		<button class="slut">(Slut)</button>
 
 		</div>
 
@@ -552,7 +535,7 @@
     <p><input type="checkbox"> &nbsp;Serveres med
     flutes og/eller salat</p>
 
-		<p align="right">(Slut)</p>
+		<button class="slut">(Slut)</button>
 
 		</div>
 
@@ -647,7 +630,7 @@
     <p><input type="checkbox"> &nbsp;Drys
     rejerne ovenp&aring; og server (Pynt evt. med myntekviste)</p>
 
-		<p align="right">(Slut)</p>
+		<button class="slut">(Slut)</button>
 
 		</div>
 	</div>   <!-- <div class="opskrifter"> -->
@@ -745,7 +728,7 @@
 					    <p><input type="checkbox"> &nbsp;Server med ris
 					    og evt. en salat</p>
 
-							<p align="right">(Slut)</p>
+							<button class="slut">(Slut)</button>
 
 						</div>
 
@@ -819,7 +802,7 @@
 				    <p><input type="checkbox"> &nbsp;Serveres
 				    med ris (og eventuelt en salat)</p>
 
-						<p align="right">(Slut)</p>
+						<button class="slut">(Slut)</button>
 
 					</div>		<!-- class recipe -->
 
@@ -880,7 +863,7 @@
 					alle slags torskefisk som m&oslash;rksej, lyssej, lange, kuller,
 					kulmule, &hellip;</p>
 
-					<p align="right">(Slut)</p>
+					<button class="slut">(Slut)</button>
 
 				</div>
 
@@ -965,7 +948,7 @@
 		    basilikumblade og kom dem p&aring; toppen af curryen</p>
 		    <p><input type="checkbox"> &nbsp;Server med ris</p>
 
-				<p align="right">(Slut)</p>
+				<button class="slut">(Slut)</button>
 
 				</div>
 
@@ -1074,7 +1057,7 @@
 			    </p>
 			    <p><input type="checkbox"> &nbsp;Server med ris og eventuelt en salat</p>
 
-					<p align="right">(Slut)</p>
+					<button class="slut">(Slut)</button>
 				</div>
 			</div>   <!-- <div class="opskrifter"> -->
 
@@ -1147,7 +1130,7 @@
     folk n&aring;r du har sat skallerne i ovnen og server skallerne
     varme fra ovnen med sovsen.</p>
 
-		<p align="right">(Slut)</p>
+		<button class="slut">(Slut)</button>
 
 		</div>
 
@@ -1297,7 +1280,7 @@
     t&aelig;nde emh&aelig;tten.</p>
     <p><input type="checkbox"> &nbsp;D&aelig;k
     bord og server bao-bollerne med dip </p>
-		<p align="right">(Slut)</p>
+		<button class="slut">(Slut)</button>
 
 		</div>
 
@@ -1372,7 +1355,7 @@
     Hvis
     du ikke har overskud til Hasselbach-kartofler er bagte kartofler
     fint </p>
-		<p align="right">(Slut)</p>
+		<button class="slut">(Slut)</button>
 
 
 		</div>
@@ -1521,7 +1504,7 @@
     <p><input type="checkbox"> &nbsp;Bonus:
     Skyl salatblade og pynt med dem</p>
 
-		<p align="right">(Slut)</p>
+		<button class="slut">(Slut)</button>
 
 	</div>
 </div>   <!-- <div class="opskrifter"> -->
@@ -1641,7 +1624,7 @@
 		skr&aelig;llen af og mos dem som beskrevet ovenfor. Bagte kartofler
 		giver en rigtig god kartoffelmos!</p>
 
-		<p align="right">(Slut)</p>
+		<button class="slut">(Slut)</button>
 
 		</div>
 
@@ -1716,7 +1699,7 @@
     m&aelig;tter s&aring; det ikke er n&oslash;dvendigt med tilbeh&oslash;r,
     men man kan servere salat eller grissini til</p>
 
-		<p align="right">(Slut)</p>
+		<button class="slut">(Slut)</button>
 
 	</div>
 </div>   <!-- <div class="opskrifter"> -->
@@ -1783,7 +1766,7 @@
 		Sk&aelig;r &rdquo;pizzaen&rdquo; i 8 stykker og rul hvert stykke til
 		et horn ved at starte fra den brede, runde ende.</p>
 
-		<p align="right">(Slut)</p>
+		<button class="slut">(Slut)</button>
 
 		</div>
 
@@ -1861,7 +1844,7 @@
     minutur.</p>
     <p><input type="checkbox"> &nbsp; Tag
     bollerne ud og s&aelig;t dem p&aring; en bagerist.</p>
-		<p align="right">(Slut)</p>
+		<button class="slut">(Slut)</button>
 
 		</div>
 
@@ -1959,7 +1942,7 @@
     Lad det
     f&aelig;rdige br&oslash;d k&oslash;le p&aring; en
     bagerist.</p>
-		<p align="right">(Slut)</p>
+		<button class="slut">(Slut)</button>
 
 		</div>
 
@@ -2050,7 +2033,7 @@
     7 minutter mere til bollerne er lysebrune i bunden</p>
 
 		<p>Smager	specielt godt med brie.</p>
-		<p align="right">(Slut)</p>
+		<button class="slut">(Slut)</button>
 
 		</div>
 
@@ -2115,7 +2098,7 @@
     bages 30-35 minutter)</p>
     <p>
     </p>
-		<p align="right">(Slut)</p>
+		<button class="slut">(Slut)</button>
 
 		</div>
 
@@ -2200,7 +2183,7 @@
     med &aelig;ggehvide og bag bagelsene i 20-25 minutter med varmluft.
     De kan drysses med seamfr&oslash; eller kalonji-kerner
     (&rdquo;Jomfru-i-det-gr&oslash;nne&rdquo; kerner)</p>
-		<p align="right">(Slut)</p>
+		<button class="slut">(Slut)</button>
 
 		</div>
 
@@ -2247,7 +2230,7 @@
 	    dejen til et br&oslash;d og lad det efterh&aelig;ve p&aring;
 	    bagepladen mens ovnen varmer op til 200<i>&ordm;</i></p>
 	    <p><input type="checkbox"> &nbsp; Bages 40-45 minutter ved 200<i>&ordm;</i></p>
-			<p align="right">(Slut)</p>
+			<button class="slut">(Slut)</button>
 
 		</div>
 
@@ -2305,7 +2288,7 @@
 
 
 		<p>Passer bedre til	frokost end morgenmad.</p>
-		<p align="right">(Slut)</p>
+		<button class="slut">(Slut)</button>
 
 		</div>
 
@@ -2355,7 +2338,7 @@
 
 		<p>Br&oslash;det er
 		velegnet til at servere til mad, da det ser imponerende ud.</p>
-		<p align="right">(Slut)</p>
+		<button class="slut">(Slut)</button>
 
 		</div>
 
@@ -2429,7 +2412,7 @@
     <p><input type="checkbox"> &nbsp;Serveres med
     creme fraise eller fl&oslash;deskum</p>
 
-		<p align="right">(Slut)</p>
+		<button class="slut">(Slut)</button>
 
 		</div>
 	</div>   <!-- <div class="opskrifter"> -->
@@ -2463,7 +2446,7 @@
 		<p><input type="checkbox"> &nbsp; S&aelig;t tallerkenerne p&aring; l&aring;get s&aring; de kan blive varme. (Det g&oslash;r pastarretter <em>meget</em> l&aelig;krere at spise p&aring; varme tallerkener!)</p>
 		<p><input type="checkbox"> &nbsp; N&aring;r minuturet ringer smages p&aring; et stykke pasta for at se om det er m&oslash;rt. Lad det st&aring; lidt l&aelig;ngere, hvis der er for meget bid i endnu</p>
 
-		<p align="right">(Slut)</p>
+		<button class="slut">(Slut)</button>
 
 		</div>
 
@@ -2492,7 +2475,7 @@
 		<p><input type="checkbox"> &nbsp; N&aring;r minuturet ringer slukkes for blusset, og minuturet s&aelig;ttes igen p&aring; 12 minutter</p>
 		<p><input type="checkbox"> &nbsp; Risen er klar n&aring;r minuturet ringer, men de kan sagtens st&aring; et kvarter mere</p>
 
-		<p align="right">(Slut)</p>
+		<button class="slut">(Slut)</button>
 
 		</div>
 
@@ -2548,7 +2531,7 @@
     C i
     ca. 45 minutter. Lidt l&aelig;ngere tid hvis det er store kartofler</p>
 
-		<p align="right">(Slut)</p>
+		<button class="slut">(Slut)</button>
 
 		</div>
 
@@ -2595,7 +2578,7 @@
 		de tomme skaller i tykke strimler og pensle dem med soya r&oslash;rt
 		op med lidt olie og paprika. Bag dem et kvarter i en 200&deg;
 		C varm ovn og server med salt og tabasco som en snack/forret.</p>
-		<p align="right">(Slut)</p>
+		<button class="slut">(Slut)</button>
 
 		</div>
 
@@ -2681,7 +2664,7 @@
 			    n&aring;r isen er trekvart-frossen</p>
 
 					<p>Server med is-vafler eller chokoladeruller.</p>
-					<p align="right">(Slut)</p>
+					<button class="slut">(Slut)</button>
 				</div>
 
 			</div>		<!-- class opskrifter -->
