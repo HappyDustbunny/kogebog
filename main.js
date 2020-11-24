@@ -9,6 +9,11 @@ $(function() {
     } else {
       hide();
     }
+
+  });
+
+  $('p').on('click', function() {
+    $(this).children()[0].checked = !$(this).children()[0].checked;
   });
 
   function hide() {

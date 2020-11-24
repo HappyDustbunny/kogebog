@@ -37,11 +37,14 @@ button {
   width: 100%;
 }
 
-#foldOutFoldIn {
+.controlButton {
   background-color: rgb(195,235,244);
   border-radius: 5px;
   padding: 7px;
   width: auto;
+}
+
+#foldOutFoldIn {
   position: absolute;
   right: 0px;
 }
@@ -61,7 +64,9 @@ button {
 .ingredienser {
   background-color: rgb(223,244,244);
   border-radius: 5px;
-  padding: 7px;}
+  padding-left: 7px;
+  padding-right: 7px;
+}
 
 .howto {
   background-color: rgb(237,255,255);
