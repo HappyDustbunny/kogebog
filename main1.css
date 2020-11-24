@@ -89,7 +89,6 @@ button {
   float: right
 }
 
-/*.kategori{background-color: bisque;border-radius: 5px;}
-.recipe{background-color: rgb(220,150,100);border-radius: 5px;}
-.ingredienser{background-color: antiquewhite;border-radius: 5px;}
-.howto{background-color: peachpuff;border-radius: 5px;}*/
+#printInstructions {
+  display: none;
+}
