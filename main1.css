@@ -45,8 +45,9 @@ button {
 }
 
 #foldOutFoldIn {
-  position: absolute;
-  right: 0px;
+  float: right;
+  /* position: absolute;
+  right: 0px; */
 }
 
 .kategori
