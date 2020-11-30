@@ -57,7 +57,6 @@ button {
   background: none;
   border: none;
   break-before: page;
-  /* page-break-before: page; */
 }
 
 .ingredienser {
