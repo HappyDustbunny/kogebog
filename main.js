@@ -5,8 +5,11 @@ $(function() {
 
   $('#foldOutFoldIn').on('click', function() {
     if ($(this)[0].value == 'unfold') {
+      showIndex();
+    } else if ($(this)[0].value == 'unfoldAll') {
       show();
-    } else {
+    }
+    else {
       hide();
     }
 
@@ -24,6 +27,12 @@ $(function() {
     $('.howto').hide();
 
     $('#foldOutFoldIn')[0].value = 'unfold';
+    $('#foldOutFoldIn')[0].textContent = 'Fold index ud';
+  }
+
+  function showIndex() {
+    $('.opskrifter').show();
+    $('#foldOutFoldIn')[0].value = 'unfoldAll';
     $('#foldOutFoldIn')[0].textContent = 'Fold alt ud (for at kunne s\u00f8ge)';
   }
 

@@ -67,6 +67,7 @@ button {
   border-radius: 5px;
   padding-left: 7px;
   padding-right: 7px;
+  border-bottom: 15px solid white; /* hack... */
 }
 
 .howto {
@@ -88,6 +89,15 @@ button {
   width: auto;
   float: right
 }
+
+.onionAlert {
+  border: 2px dashed darkgray;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
 
 #printInstructions {
   display: none;
