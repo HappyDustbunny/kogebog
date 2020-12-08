@@ -15,6 +15,20 @@ $(function() {
 
   });
 
+  let direction = 1;
+  let originalFontSize = parseInt($('body').css("font-size"));
+  let fontSize = originalFontSize;
+  let step = 5;
+  $('#textSize').on('click', function() {  // Cycle between fontsizes 
+    fontSize += direction * step;
+    if (fontSize == originalFontSize + 2 * step) {
+      direction = -1;
+    } else if (fontSize == originalFontSize) {
+      direction = 1;
+    }
+    $('body').css("font-size", fontSize);
+  })
+
   $('p').on('click', function() {
     if ($(this).children()[0]) {
       $(this).children()[0].checked = !$(this).children()[0].checked;

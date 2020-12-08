@@ -1,32 +1,31 @@
 body {
-font-size: 12pt;
+/* font-size: 12pt; */
 max-width: 650px;
 min-width: 350px;
 margin-left: auto;
 margin-right: auto;
 }
 
-h1 {font-size: 23pt;
+h1 {
+  font-size: 45px;
+  margin-bottom: 0px
+}
+
+h2 {font-size: 2em;
 margin-bottom: 0px;
 margin-top: 0px;
 font-style: normal;
 }
 
-h2 {
-font-size: 12pt;
+h3 {
+font-size: 1em;
 margin-bottom: 0px;
 margin-top: 0px;
 font-style: normal;
-}
-
-h5 {
-  font-size: 14pt;
-  margin-bottom: 0px;
-  font-style: normal;
 }
 
 li,u,p {
-  font-size: 12pt;
+  font-size: 1em;
   font-style: normal;
 }
 
@@ -35,6 +34,13 @@ q {
 
 button {
   width: 100%;
+  font-size: initial;
+}
+
+#controlButtonContainer {
+  display: grid;
+  /* grid-template-columns: auto auto auto; */
+  grid-template-columns: 33% 33% 33%;
 }
 
 .controlButton {
@@ -44,10 +50,26 @@ button {
   width: auto;
 }
 
+#about {
+  width: max-content;
+  justify-self: start;
+}
+
+#textSize {
+  height: 36px;
+  padding: 0px 6px 2px 6px;
+  justify-self: center;
+}
+
+#textSizePNG {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
 #foldOutFoldIn {
-  float: right;
-  /* position: absolute;
-  right: 0px; */
+  width: max-content;
+  justify-self: end;
 }
 
 .kategori
