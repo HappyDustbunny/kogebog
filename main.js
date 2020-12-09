@@ -19,7 +19,7 @@ $(function() {
   let originalFontSize = parseInt($('body').css("font-size"));
   let fontSize = originalFontSize;
   let step = 5;
-  $('#textSize').on('click', function() {  // Cycle between fontsizes 
+  $('#textSize').on('click', function() {  // Cycle between fontsizes
     fontSize += direction * step;
     if (fontSize == originalFontSize + 2 * step) {
       direction = -1;
