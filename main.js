@@ -2,6 +2,13 @@ $(function() {
   $('.opskrifter').hide();
   $('.ingredienser').hide();
   $('.howto').hide();
+  $('#fallBackLink').hide();
+  $('#about').show();
+  $('#about').on('click', function() {
+    window.location = '../index.html'
+  });
+
+
 
   $('#foldOutFoldIn').on('click', function() {
     if ($(this)[0].value == 'unfold') {
