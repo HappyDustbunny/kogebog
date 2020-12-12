@@ -5,7 +5,7 @@ $(function() {
   $('#fallBackLink').hide();
   $('#about').show();
   $('#about').on('click', function() {
-    window.location = '../index.html'
+    window.location = 'index.html'
   });
 
 
