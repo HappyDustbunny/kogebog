@@ -144,3 +144,7 @@ button {
 #printInstructions {
   display: none;
 }
+
+.printInstructions {
+  font-size: 2em;
+}
